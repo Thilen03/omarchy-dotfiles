@@ -1,6 +1,6 @@
 # Osaka Jade
 
-Osaka Jade is a theme for Hyprland, Waybar, and Ghostty terminal.
+Osaka Jade config for Hyprland, Waybar, and Ghostty terminal.
 
 ![Preview](preview.png)
 
@@ -9,9 +9,9 @@ Osaka Jade is a theme for Hyprland, Waybar, and Ghostty terminal.
 - Waybar
   - Color scheme for Osaka Jade
   - Spotify integration
-  - System monitor (CPU, RAM, network)
-  - Weather widget
-
+  - System monitor 
+  - Weather widget 
+  - Pill containers for widgets
 - Hyprland
   - Customized layouts
   - Transparent panels
@@ -19,5 +19,5 @@ Osaka Jade is a theme for Hyprland, Waybar, and Ghostty terminal.
 - Ghostty Terminal
   - Terminal color scheme matching Osaka Jade
 
-
+  Might need some tweaks for it to work on your system.
 
