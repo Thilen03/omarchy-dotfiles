@@ -24,7 +24,7 @@ Osaka Jade config for Hyprland, Waybar, and Ghostty terminal.
 ---
 
 ## Installation Instructions (Safe Method for Beginners)
-
+```bash
 # 1. Choose a folder to clone the repo into
 # Replace <desired_clone_location> with the path where you want to store the repo
 cd <desired_clone_location>
@@ -52,3 +52,4 @@ pkill waybar && waybar &
 # If you want to roll back to your previous setup
 cp -r <backup_location>/* <destination_config>/
 hyprctl reload
+```
