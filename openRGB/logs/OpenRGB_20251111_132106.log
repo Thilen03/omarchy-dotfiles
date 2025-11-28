@@ -1,0 +1,112 @@
+    OpenRGB v0.9
+    Commit: b5f46e3f1de03595656c682fc2f068b66e735e63 from 2023-07-09 22:51:47 -0500
+    Launched: 20251111_132106
+====================================================================================================
+
+0     |Info:    Found file: Green.orp attempting to validate header
+0     |Info:    Valid v4 profile found for Green
+1002  |Info:    ------------------------------------------------------
+1002  |Info:    |               Start device detection               |
+1002  |Info:    ------------------------------------------------------
+1002  |Info:    Initializing HID interfaces: Success
+1025  |Info:    ------------------------------------------------------
+1025  |Info:    |             Detecting I2C interfaces               |
+1025  |Info:    ------------------------------------------------------
+1026  |Info:    Registering I2C interface: /dev/i2c-3 Device 1002:73AF Subsystem: 148C:2414
+1026  |Info:    Registering I2C interface: /dev/i2c-10 Device 1022:790B Subsystem: 1462:7C56
+1026  |Info:    Registering I2C interface: /dev/i2c-1 Device 1002:73AF Subsystem: 148C:2414
+1026  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1026  |Info:    Registering I2C interface: /dev/i2c-8 Device 0000:0000 Subsystem: 0000:0000
+1026  |Info:    Registering I2C interface: /dev/i2c-6 Device 1002:73AF Subsystem: 148C:2414
+1026  |Info:    Registering I2C interface: /dev/i2c-4 Device 1002:73AF Subsystem: 148C:2414
+1026  |Info:    Registering I2C interface: /dev/i2c-11 Device 1022:790B Subsystem: 1462:7C56
+1026  |Info:    Registering I2C interface: /dev/i2c-2 Device 1002:73AF Subsystem: 148C:2414
+1026  |Info:    Registering I2C interface: /dev/i2c-0 Device 1002:73AF Subsystem: 148C:2414
+1026  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1026  |Info:    Registering I2C interface: /dev/i2c-9 Device 0000:0000 Subsystem: 0000:0000
+1027  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1027  |Info:    Registering I2C interface: /dev/i2c-7 Device 0000:0000 Subsystem: 0000:0000
+1027  |Info:    Registering I2C interface: /dev/i2c-5 Device 1002:73AF Subsystem: 148C:2414
+1027  |Info:    Registering I2C interface: /dev/i2c-12 Device 1022:790B Subsystem: 1462:7C56
+1027  |Info:    ------------------------------------------------------
+1027  |Info:    |               Detecting I2C devices                |
+1027  |Info:    ------------------------------------------------------
+2084  |Info:    [HyperX Fury RGB] Registering RGB controller
+2088  |Info:    ------------------------------------------------------
+2088  |Info:    |               Detecting I2C PCI devices            |
+2088  |Info:    ------------------------------------------------------
+2089  |Info:    ------------------------------------------------------
+2089  |Info:    |               Detecting HID devices                |
+2089  |Info:    ------------------------------------------------------
+2246  |Info:    [Corsair Commander Core] Registering RGB controller
+2298  |Info:    [Strimer L Connect] Registering RGB controller
+2356  |Info:    [Corsair Lighting Node Core] Registering RGB controller
+2414  |Info:    [ASUS ROG Strix Impact II Wireless 2.4 Ghz] Registering RGB controller
+2489  |Info:    [MSI B550-A PRO (MS-7C56)] Registering RGB controller
+3569  |Info:    [Corsair Scimitar Elite RGB] Registering RGB controller
+3569  |Info:    ------------------------------------------------------
+3569  |Info:    |            Detecting libusb HID devices            |
+3569  |Info:    ------------------------------------------------------
+3791  |Info:    ------------------------------------------------------
+3791  |Info:    |              Detecting other devices               |
+3791  |Info:    ------------------------------------------------------
+3805  |Info:    ------------------------------------------------------
+3805  |Info:    |                Detection completed                 |
+3805  |Info:    ------------------------------------------------------
+27717 |Info:    Profile loading: Succeeded for HyperX Fury RGB @ I2C: /dev/i2c-10, address 0x27
+27717 |Info:    Profile loading: Succeeded for Corsair Commander Core @ HID: /dev/hidraw5
+27717 |Info:    Profile loading: Succeeded for Strimer L Connect @ HID: /dev/hidraw11
+27717 |Info:    Profile loading: Succeeded for Corsair Lighting Node Core @ HID: /dev/hidraw12
+27717 |Info:    Profile loading: Succeeded for ASUS ROG Strix Impact II Wireless 2.4 Ghz @ HID: /dev/hidraw2
+27717 |Info:    Profile loading: Succeeded for MSI B550-A PRO (MS-7C56) @ HID: /dev/hidraw13
+27717 |Info:    Profile loading: Succeeded for Corsair Scimitar Elite RGB @ HID: /dev/hidraw15
+28133 |Info:    Profile loading: Succeeded for HyperX Fury RGB @ I2C: /dev/i2c-10, address 0x27
+28133 |Info:    Profile loading: Succeeded for Corsair Commander Core @ HID: /dev/hidraw5
+28133 |Info:    Profile loading: Succeeded for Strimer L Connect @ HID: /dev/hidraw11
+28133 |Info:    Profile loading: Succeeded for Corsair Lighting Node Core @ HID: /dev/hidraw12
+28133 |Info:    Profile loading: Succeeded for ASUS ROG Strix Impact II Wireless 2.4 Ghz @ HID: /dev/hidraw2
+28133 |Info:    Profile loading: Succeeded for MSI B550-A PRO (MS-7C56) @ HID: /dev/hidraw13
+28133 |Info:    Profile loading: Succeeded for Corsair Scimitar Elite RGB @ HID: /dev/hidraw15
+28287 |Info:    Profile loading: Succeeded for HyperX Fury RGB @ I2C: /dev/i2c-10, address 0x27
+28287 |Info:    Profile loading: Succeeded for Corsair Commander Core @ HID: /dev/hidraw5
+28287 |Info:    Profile loading: Succeeded for Strimer L Connect @ HID: /dev/hidraw11
+28287 |Info:    Profile loading: Succeeded for Corsair Lighting Node Core @ HID: /dev/hidraw12
+28287 |Info:    Profile loading: Succeeded for ASUS ROG Strix Impact II Wireless 2.4 Ghz @ HID: /dev/hidraw2
+28287 |Info:    Profile loading: Succeeded for MSI B550-A PRO (MS-7C56) @ HID: /dev/hidraw13
+28287 |Info:    Profile loading: Succeeded for Corsair Scimitar Elite RGB @ HID: /dev/hidraw15
+29565 |Info:    Found file: Green.orp attempting to validate header
+29565 |Info:    Valid v4 profile found for Green
+29737 |Info:    Found file: Green.orp attempting to validate header
+29737 |Info:    Valid v4 profile found for Green
+29895 |Info:    Found file: Green.orp attempting to validate header
+29895 |Info:    Valid v4 profile found for Green
+30067 |Info:    Found file: Green.orp attempting to validate header
+30067 |Info:    Valid v4 profile found for Green
+30229 |Info:    Found file: Green.orp attempting to validate header
+30229 |Info:    Valid v4 profile found for Green
+30389 |Info:    Found file: Green.orp attempting to validate header
+30389 |Info:    Valid v4 profile found for Green
+30543 |Info:    Found file: Green.orp attempting to validate header
+30543 |Info:    Valid v4 profile found for Green
+30691 |Info:    Found file: Green.orp attempting to validate header
+30691 |Info:    Valid v4 profile found for Green
+33930 |Info:    Found file: Green.orp attempting to validate header
+33930 |Info:    Valid v4 profile found for Green
+34099 |Info:    Found file: Green.orp attempting to validate header
+34099 |Info:    Valid v4 profile found for Green
+34268 |Info:    Found file: Green.orp attempting to validate header
+34268 |Info:    Valid v4 profile found for Green
+34986 |Info:    Profile loading: Succeeded for HyperX Fury RGB @ I2C: /dev/i2c-10, address 0x27
+34986 |Info:    Profile loading: Succeeded for Corsair Commander Core @ HID: /dev/hidraw5
+34986 |Info:    Profile loading: Succeeded for Strimer L Connect @ HID: /dev/hidraw11
+34986 |Info:    Profile loading: Succeeded for Corsair Lighting Node Core @ HID: /dev/hidraw12
+34986 |Info:    Profile loading: Succeeded for ASUS ROG Strix Impact II Wireless 2.4 Ghz @ HID: /dev/hidraw2
+34986 |Info:    Profile loading: Succeeded for MSI B550-A PRO (MS-7C56) @ HID: /dev/hidraw13
+34986 |Info:    Profile loading: Succeeded for Corsair Scimitar Elite RGB @ HID: /dev/hidraw15
+35238 |Info:    Profile loading: Succeeded for HyperX Fury RGB @ I2C: /dev/i2c-10, address 0x27
+35238 |Info:    Profile loading: Succeeded for Corsair Commander Core @ HID: /dev/hidraw5
+35238 |Info:    Profile loading: Succeeded for Strimer L Connect @ HID: /dev/hidraw11
+35238 |Info:    Profile loading: Succeeded for Corsair Lighting Node Core @ HID: /dev/hidraw12
+35238 |Info:    Profile loading: Succeeded for ASUS ROG Strix Impact II Wireless 2.4 Ghz @ HID: /dev/hidraw2
+35238 |Info:    Profile loading: Succeeded for MSI B550-A PRO (MS-7C56) @ HID: /dev/hidraw13
+35238 |Info:    Profile loading: Succeeded for Corsair Scimitar Elite RGB @ HID: /dev/hidraw15

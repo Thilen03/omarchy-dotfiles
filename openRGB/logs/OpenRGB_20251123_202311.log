@@ -1,0 +1,50 @@
+    OpenRGB v0.9+ (git1721)
+    Commit: 6e53097f83e2b086006e407749a4377ff991e342 from 2025-11-23 10:38:31 +0800
+    Launched: 20251123_202311
+====================================================================================================
+
+0     |Info:    [ProfileManager] Found file: Green.orp attempting to validate header
+0     |Info:    [ProfileManager] Valid v4 profile found for Green
+688   |ERROR:   [NetworkServer] Could not bind network socket. Is port 6742 already being used?
+688   |Info:    [ResourceManager] Calling Post-detection callbacks
+688   |Info:    ------------------------------------------------------
+688   |Info:    |                Detection com4662  |Info:    [ResourceManager] Saving detector settings
+4663  |Info:    [ResourceManager] Calling Post-detection callbacks
+4663  |Info:    ------------------------------------------------------
+4663  |Info:    |                Detection completed                 |
+4663  |Info:    ------------------------------------------------------
+5710  |Info:    [ResourceManager] Calling Post-detection callbacks
+5710  |Info:    ------------------------------------------------------
+5710  |Info:    |                Detection completed                 |
+5710  |Info:    ------------------------------------------------------
+6097  |Info:    [ResourceManager] Calling Post-detection callbacks
+6097  |Info:    ------------------------------------------------------
+6097  |Info:    |                Detection completed                 |
+6097  |Info:    ------------------------------------------------------
+6925  |Info:    [ResourceManager] Calling Post-detection callbacks
+6925  |Info:    ------------------------------------------------------
+6925  |Info:    |                Detection completed                 |
+6925  |Info:    ------------------------------------------------------
+33949 |Info:    [ProfileManager] Profile loading: FAILED! for HyperX Fury RGB @ I2C: /dev/i2c-10, address 0x27
+33949 |Info:    [ProfileManager] Profile loading: Succeeded for Corsair Commander Core @ HID: /dev/hidraw2
+33949 |Info:    [ProfileManager] Profile loading: Succeeded for Strimer L Connect @ HID: /dev/hidraw7
+33949 |Info:    [ProfileManager] Profile loading: Succeeded for Corsair Lighting Node Core @ HID: /dev/hidraw8
+33949 |Info:    [ProfileManager] Profile loading: Succeeded for ASUS ROG Strix Impact II Wireless 2.4 Ghz @ HID: /dev/hidraw4
+33949 |Info:    [ProfileManager] Profile loading: Succeeded for MSI B550-A PRO (MS-7C56) @ HID: /dev/hidraw13
+33949 |Info:    [ProfileManager] Profile loading: Succeeded for Corsair Scimitar Elite RGB @ HID: /dev/hidraw15
+39146 |Info:    [ResourceManager] Calling Post-detection callbacks
+39146 |Info:    ------------------------------------------------------
+39146 |Info:    |                Detection completed                 |
+39146 |Info:    ------------------------------------------------------
+51700 |Info:    [ResourceManager] Calling Post-detection callbacks
+51700 |Info:    ------------------------------------------------------
+51700 |Info:    |                Detection completed                 |
+51700 |Info:    ------------------------------------------------------
+51924 |Info:    [ResourceManager] Calling Post-detection callbacks
+51924 |Info:    ------------------------------------------------------
+51924 |Info:    |                Detection completed                 |
+51924 |Info:    ------------------------------------------------------
+52079 |Info:    [ResourceManager] Calling Post-detection callbacks
+52079 |Info:    ------------------------------------------------------
+52079 |Info:    |                Detection completed                 |
+52079 |Info:    ------------------------------------------------------

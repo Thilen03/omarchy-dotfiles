@@ -1,0 +1,86 @@
+    OpenRGB v0.9+ (git1721)
+    Commit: 6e53097f83e2b086006e407749a4377ff991e342 from 2025-11-23 10:38:31 +0800
+    Launched: 20251125_201605
+====================================================================================================
+
+0     |Info:    [ProfileManager] Found file: Green.orp attempting to validate header
+0     |Info:    [ProfileManager] Valid v5 profile found for Green
+53    |Info:    [NetworkServer] Network connection thread started on port 6742
+54    |Info:    [ResourceManager] Initializing HID interfaces: Success
+54    |Info:    ------------------------------------------------------
+54    |Info:    |               Start device detection               |
+54    |Info:    ------------------------------------------------------
+80    |Info:    ------------------------------------------------------
+80    |Info:    |             Detecting I2C interfaces               |
+80    |Info:    ------------------------------------------------------
+80    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-3 Device 1002:73AF Subsystem: 148C:2414
+80    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-10 Device 1022:790B Subsystem: 1462:7C56
+80    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-1 Device 1002:73AF Subsystem: 148C:2414
+80    |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+80    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-8 Device 0000:0000 Subsystem: 0000:0000
+80    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-6 Device 1002:73AF Subsystem: 148C:2414
+80    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-4 Device 1002:73AF Subsystem: 148C:2414
+80    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-11 Device 1022:790B Subsystem: 1462:7C56
+80    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-2 Device 1002:73AF Subsystem: 148C:2414
+81    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-0 Device 1002:73AF Subsystem: 148C:2414
+81    |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+81    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-9 Device 0000:0000 Subsystem: 0000:0000
+81    |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+81    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-7 Device 0000:0000 Subsystem: 0000:0000
+81    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-5 Device 1002:73AF Subsystem: 148C:2414
+81    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-12 Device 1022:790B Subsystem: 1462:7C56
+81    |Info:    ------------------------------------------------------
+81    |Info:    |               Detecting I2C devices                |
+81    |Info:    ------------------------------------------------------
+1099  |Info:    ------------------------------------------------------
+1099  |Info:    |            Detecting I2C DIMM modules              |
+1099  |Info:    ------------------------------------------------------
+1110  |Info:    [ResourceManager] Detected occupied slot 1, bus 1, type DDR4
+1127  |Info:    [ResourceManager] Detected occupied slot 2, bus 1, type DDR4
+1149  |Info:    [ResourceManager] Detected occupied slot 3, bus 1, type DDR4
+1176  |Info:    [ResourceManager] Detected occupied slot 4, bus 1, type DDR4
+1347  |Info:    [HyperX Predator RGB] Registering RGB controller
+1436  |Info:    ------------------------------------------------------
+1436  |Info:    |               Detecting I2C PCI devices            |
+1436  |Info:    ------------------------------------------------------
+2816  |Info:    [PowerColor Red Devil RX6900XT Ultimate] Registering RGB controller
+2900  |Info:    ------------------------------------------------------
+2900  |Info:    |               Detecting HID devices                |
+2900  |Info:    ------------------------------------------------------
+2977  |Info:    [Corsair Commander Core] Registering RGB controller
+3029  |Info:    [Lian Li Strimer L Connect] Registering RGB controller
+3083  |Info:    [Corsair Lighting Node Core] Registering RGB controller
+3186  |Info:    [ASUS ROG Strix Impact II Wireless 2.4 Ghz] Registering RGB controller
+3238  |Info:    [Anne Pro 2] Registering RGB controller
+3314  |Info:    [MSI B550-A PRO (MS-7C56)] Registering RGB controller
+4393  |Info:    [Corsair Scimitar Elite RGB] Registering RGB controller
+4393  |Info:    ------------------------------------------------------
+4393  |Info:    |            Detecting libusb HID devices            |
+4393  |Info:    ------------------------------------------------------
+4700  |Info:    ------------------------------------------------------
+4700  |Info:    |              Detecting other devices               |
+4700  |Info:    ------------------------------------------------------
+4739  |Info:    [ResourceManager] Calling Post-detection callbacks
+4739  |Info:    ------------------------------------------------------
+4739  |Info:    |                Detection completed                 |
+4739  |Info:    ------------------------------------------------------
+4740  |Info:    [ProfileManager] Profile loading: Succeeded for HyperX Predator RGB @ I2C: /dev/i2c-10, address 0x27
+4740  |Info:    [ProfileManager] Profile loading: Succeeded for PowerColor Red Devil RX6900XT Ultimate @ I2C:/dev/i2c-6, address 0x22
+4740  |Info:    [ProfileManager] Profile loading: FAILED! for Corsair Commander Core @ HID: /dev/hidraw2
+4740  |Info:    [ProfileManager] Profile loading: Succeeded for Lian Li Strimer L Connect @ HID: /dev/hidraw7
+4740  |Info:    [ProfileManager] Profile loading: Succeeded for Corsair Lighting Node Core @ HID: /dev/hidraw8
+4740  |Info:    [ProfileManager] Profile loading: FAILED! for ASUS ROG Strix Impact II Wireless 2.4 Ghz @ HID: /dev/hidraw4
+4740  |Info:    [ProfileManager] Profile loading: Succeeded for Anne Pro 2 @ HID: /dev/hidraw10
+4740  |Info:    [ProfileManager] Profile loading: Succeeded for MSI B550-A PRO (MS-7C56) @ HID: /dev/hidraw13
+4740  |Info:    [ProfileManager] Profile loading: Succeeded for Corsair Scimitar Elite RGB @ HID: /dev/hidraw15
+18053 |Info:    [NetworkServer] Network server started
+19905 |ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+19905 |Info:    [NetworkServer] Closing server connection: 127.0.0.1
+45150 |Info:    [NetworkServer] Network server started
+47005 |ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+47005 |Info:    [NetworkServer] Closing server connection: 127.0.0.1
+72151 |Info:    [NetworkServer] Network server started
+74009 |ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+74009 |Info:    [NetworkServer] Closing server connection: 127.0.0.1
+97940 |Info:    [ProfileManager] Found file: Green.orp attempting to validate header
+97940 |Info:    [ProfileManager] Valid v5 profile found for Green

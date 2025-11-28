@@ -1,0 +1,49 @@
+    OpenRGB v0.9
+    Commit: b5f46e3f1de03595656c682fc2f068b66e735e63 from 2023-07-09 22:51:47 -0500
+    Launched: 20251115_145313
+====================================================================================================
+
+0     |Info:    Found file: Green.orp attempting to validate header
+0     |Info:    Valid v4 profile found for Green
+23903 |Info:    Profile loading: FAILED! for HyperX Fury RGB @ I2C: /dev/i2c-10, address 0x27
+23903 |Info:    Profile loading: Succeeded for Corsair Commander Core @ HID: /dev/hidraw5
+23903 |Info:    Profile loading: Succeeded for Strimer L Connect @ HID: /dev/hidraw7
+23903 |Info:    Profile loading: Succeeded for Corsair Lighting Node Core @ HID: /dev/hidraw12
+23903 |Info:    Profile loading: Succeeded for ASUS ROG Strix Impact II Wireless 2.4 Ghz @ HID: /dev/hidraw2
+23903 |Info:    Profile loading: Succeeded for MSI B550-A PRO (MS-7C56) @ HID: /dev/hidraw13
+23903 |Info:    Profile loading: Succeeded for Corsair Scimitar Elite RGB @ HID: /dev/hidraw15
+24391 |Info:    Profile loading: FAILED! for HyperX Fury RGB @ I2C: /dev/i2c-10, address 0x27
+24391 |Info:    Profile loading: Succeeded for Corsair Commander Core @ HID: /dev/hidraw5
+24391 |Info:    Profile loading: Succeeded for Strimer L Connect @ HID: /dev/hidraw7
+24391 |Info:    Profile loading: Succeeded for Corsair Lighting Node Core @ HID: /dev/hidraw12
+24391 |Info:    Profile loading: Succeeded for ASUS ROG Strix Impact II Wireless 2.4 Ghz @ HID: /dev/hidraw2
+24391 |Info:    Profile loading: Succeeded for MSI B550-A PRO (MS-7C56) @ HID: /dev/hidraw13
+24391 |Info:    Profile loading: Succeeded for Corsair Scimitar Elite RGB @ HID: /dev/hidraw15
+24566 |Info:    Profile loading: FAILED! for HyperX Fury RGB @ I2C: /dev/i2c-10, address 0x27
+24567 |Info:    Profile loading: Succeeded for Corsair Commander Core @ HID: /dev/hidraw5
+24567 |Info:    Profile loading: Succeeded for Strimer L Connect @ HID: /dev/hidraw7
+24567 |Info:    Profile loading: Succeeded for Corsair Lighting Node Core @ HID: /dev/hidraw12
+24567 |Info:    Profile loading: Succeeded for ASUS ROG Strix Impact II Wireless 2.4 Ghz @ HID: /dev/hidraw2
+24567 |Info:    Profile loading: Succeeded for MSI B550-A PRO (MS-7C56) @ HID: /dev/hidraw13
+24567 |Info:    Profile loading: Succeeded for Corsair Scimitar Elite RGB @ HID: /dev/hidraw15
+24736 |Info:    Profile loading: FAILED! for HyperX Fury RGB @ I2C: /dev/i2c-10, address 0x27
+24736 |Info:    Profile loading: Succeeded for Corsair Commander Core @ HID: /dev/hidraw5
+24736 |Info:    Profile loading: Succeeded for Strimer L Connect @ HID: /dev/hidraw7
+24736 |Info:    Profile loading: Succeeded for Corsair Lighting Node Core @ HID: /dev/hidraw12
+24736 |Info:    Profile loading: Succeeded for ASUS ROG Strix Impact II Wireless 2.4 Ghz @ HID: /dev/hidraw2
+24736 |Info:    Profile loading: Succeeded for MSI B550-A PRO (MS-7C56) @ HID: /dev/hidraw13
+24736 |Info:    Profile loading: Succeeded for Corsair Scimitar Elite RGB @ HID: /dev/hidraw15
+24924 |Info:    Profile loading: FAILED! for HyperX Fury RGB @ I2C: /dev/i2c-10, address 0x27
+24924 |Info:    Profile loading: Succeeded for Corsair Commander Core @ HID: /dev/hidraw5
+24924 |Info:    Profile loading: Succeeded for Strimer L Connect @ HID: /dev/hidraw7
+24924 |Info:    Profile loading: Succeeded for Corsair Lighting Node Core @ HID: /dev/hidraw12
+24924 |Info:    Profile loading: Succeeded for ASUS ROG Strix Impact II Wireless 2.4 Ghz @ HID: /dev/hidraw2
+24924 |Info:    Profile loading: Succeeded for MSI B550-A PRO (MS-7C56) @ HID: /dev/hidraw13
+24924 |Info:    Profile loading: Succeeded for Corsair Scimitar Elite RGB @ HID: /dev/hidraw15
+25119 |Info:    Profile loading: FAILED! for HyperX Fury RGB @ I2C: /dev/i2c-10, address 0x27
+25119 |Info:    Profile loading: Succeeded for Corsair Commander Core @ HID: /dev/hidraw5
+25119 |Info:    Profile loading: Succeeded for Strimer L Connect @ HID: /dev/hidraw7
+25120 |Info:    Profile loading: Succeeded for Corsair Lighting Node Core @ HID: /dev/hidraw12
+25120 |Info:    Profile loading: Succeeded for ASUS ROG Strix Impact II Wireless 2.4 Ghz @ HID: /dev/hidraw2
+25120 |Info:    Profile loading: Succeeded for MSI B550-A PRO (MS-7C56) @ HID: /dev/hidraw13
+25120 |Info:    Profile loading: Succeeded for Corsair Scimitar Elite RGB @ HID: /dev/hidraw15

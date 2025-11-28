@@ -1,0 +1,125 @@
+@import "../omarchy/current/theme/waybar.css";
+
+/* -----------------------------
+   Base styles
+----------------------------- */
+* {
+  background-color: transparent;  /* transparent background for all modules */
+  color: #ffffff;
+  border: none;
+  border-radius: 0;
+  font-family: 'JetBrainsMono Nerd Font';
+  font-size: 14px;
+}
+
+/* Left and right module spacing */
+.modules-left {
+  margin-left: 8px;
+}
+
+.modules-right {
+  margin-right: 8px;
+}
+
+/* Workspaces buttons */
+#workspaces button {
+  all: initial;
+  padding: 0 6px;
+  margin: 0 1.5px;
+  min-width: 9px;
+}
+
+#workspaces button.empty {
+  opacity: 0.5;
+}
+
+/* -----------------------------
+   Waybar panel background removed
+----------------------------- */
+#waybar {
+  background-color: transparent;
+  border-radius: 0;
+}
+
+/* -----------------------------
+   Standard pill style for modules
+----------------------------- */
+#cpu,
+#battery,
+#pulseaudio,
+#custom-omarchy,
+#custom-update,
+#custom-screenrecording-indicator,
+#tray,
+#bluetooth,
+#network,
+#custom-expand-icon,
+#clock,
+#hyprland-workspaces,
+#group\/tray-expander,
+.custom-spotify, 
+#custom-weather,
+#custom-sys-mon {
+  min-width: 18px;
+  padding: 2px 10px;               /* vertical + horizontal spacing */
+  margin: 6px 10px;               /* spacing between pills */
+  background-color: #018052;      /* jade green to match your OS theme */
+  border-radius: 18px;            /* round pill shape */
+  color: #ffffff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3); /* subtle floating shadow */
+  font-size: 16px;
+}
+
+/* Keep some spacing adjustments */
+#tray {
+  margin-right: 16px;
+}
+
+#bluetooth {
+  margin-right: 17px;
+}
+
+#network {
+  margin-right: 13px;
+}
+
+#custom-expand-icon {
+  margin-right: 18px;
+}
+
+#clock {
+  margin-left: 8.75px;
+}
+
+#custom-screenrecording-indicator {
+  margin-left: 8.75px;
+  font-size: 10px;
+}
+
+#custom-screenrecording-indicator.active {
+  color: #a55555;
+}
+
+/* -----------------------------
+   Media Player / Spotify module tweaks
+----------------------------- */
+.custom-spotify span {
+  margin: 0 4px; /* spacing between play icon and text */
+}
+
+/* Tooltip styling */
+tooltip {
+    padding: 6px 10px;                      /* spacing inside the tooltip */
+    background-color: rgba(0, 0, 0, 0.30);  /* 30% opaque black */
+    border-radius: 8px;                      /* rounded corners to match pills */
+    color: #ffffff;                          /* text color */
+    border: 1px solid rgba(255, 255, 255, 0.15); /* subtle border to define edges */
+    font-size: 14px;                         /* base font size */
+}
+
+/* Small text tweaks */
+#custom-update,
+#custom-screenrecording-indicator {
+  font-size: 8px;
+}
+

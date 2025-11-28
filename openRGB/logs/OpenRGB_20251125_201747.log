@@ -1,0 +1,91 @@
+    OpenRGB v0.9+ (git1721)
+    Commit: 6e53097f83e2b086006e407749a4377ff991e342 from 2025-11-23 10:38:31 +0800
+    Launched: 20251125_201747
+====================================================================================================
+
+8     |Info:    [ProfileManager] Found file: Green.orp attempting to validate header
+8     |Info:    [ProfileManager] Valid v5 profile found for Green
+1208  |Info:    [ResourceManager] Calling Post-detection callbacks
+1208  |Info:    ------------------------------------------------------
+1208  |Info:    |                Detection completed                 |
+1208  |Info:    ------------------------------------------------------
+17258 |Info:    [ProfileManager] Profile loading: Succeeded for HyperX Predator RGB @ I2C: /dev/i2c-10, address 0x27
+17258 |Info:    [ProfileManager] Profile loading: Succeeded for PowerColor Red Devil RX6900XT Ultimate @ I2C:/dev/i2c-6, address 0x22
+17258 |Info:    [ProfileManager] Profile loading: FAILED! for Corsair Commander Core @ HID: /dev/hidraw2
+17258 |Info:    [ProfileManager] Profile loading: Succeeded for Lian Li Strimer L Connect @ HID: /dev/hidraw7
+17258 |Info:    [ProfileManager] Profile loading: Succeeded for Corsair Lighting Node Core @ HID: /dev/hidraw8
+17258 |Info:    [ProfileManager] Profile loading: Succeeded for ASUS ROG Strix Impact II Wireless 2.4 Ghz @ HID: /dev/hidraw4
+17258 |Info:    [ProfileManager] Profile loading: Succeeded for Anne Pro 2 @ HID: /dev/hidraw10
+17258 |Info:    [ProfileManager] Profile loading: Succeeded for MSI B550-A PRO (MS-7C56) @ HID: /dev/hidraw13
+17258 |Info:    [ProfileManager] Profile loading: Succeeded for Corsair Scimitar Elite RGB @ HID: /dev/hidraw15
+18866 |Info:    [ProfileManager] Profile loading: Succeeded for HyperX Predator RGB @ I2C: /dev/i2c-10, address 0x27
+18866 |Info:    [ProfileManager] Profile loading: Succeeded for PowerColor Red Devil RX6900XT Ultimate @ I2C:/dev/i2c-6, address 0x22
+18866 |Info:    [ProfileManager] Profile loading: FAILED! for Corsair Commander Core @ HID: /dev/hidraw2
+18866 |Info:    [ProfileManager] Profile loading: Succeeded for Lian Li Strimer L Connect @ HID: /dev/hidraw7
+18866 |Info:    [ProfileManager] Profile loading: Succeeded for Corsair Lighting Node Core @ HID: /dev/hidraw8
+18866 |Info:    [ProfileManager] Profile loading: Succeeded for ASUS ROG Strix Impact II Wireless 2.4 Ghz @ HID: /dev/hidraw4
+18866 |Info:    [ProfileManager] Profile loading: Succeeded for Anne Pro 2 @ HID: /dev/hidraw10
+18866 |Info:    [ProfileManager] Profile loading: Succeeded for MSI B550-A PRO (MS-7C56) @ HID: /dev/hidraw13
+18866 |Info:    [ProfileManager] Profile loading: Succeeded for Corsair Scimitar Elite RGB @ HID: /dev/hidraw15
+19046 |Info:    [ProfileManager] Profile loading: Succeeded for HyperX Predator RGB @ I2C: /dev/i2c-10, address 0x27
+19046 |Info:    [ProfileManager] Profile loading: Succeeded for PowerColor Red Devil RX6900XT Ultimate @ I2C:/dev/i2c-6, address 0x22
+19046 |Info:    [ProfileManager] Profile loading: FAILED! for Corsair Commander Core @ HID: /dev/hidraw2
+19046 |Info:    [ProfileManager] Profile loading: Succeeded for Lian Li Strimer L Connect @ HID: /dev/hidraw7
+19046 |Info:    [ProfileManager] Profile loading: Succeeded for Corsair Lighting Node Core @ HID: /dev/hidraw8
+19046 |Info:    [ProfileManager] Profile loading: Succeeded for ASUS ROG Strix Impact II Wireless 2.4 Ghz @ HID: /dev/hidraw4
+19046 |Info:    [ProfileManager] Profile loading: Succeeded for Anne Pro 2 @ HID: /dev/hidraw10
+19046 |Info:    [ProfileManager] Profile loading: Succeeded for MSI B550-A PRO (MS-7C56) @ HID: /dev/hidraw13
+19046 |Info:    [ProfileManager] Profile loading: Succeeded for Corsair Scimitar Elite RGB @ HID: /dev/hidraw15
+19222 |Info:    [ProfileManager] Profile loading: Succeeded for HyperX Predator RGB @ I2C: /dev/i2c-10, address 0x27
+19222 |Info:    [ProfileManager] Profile loading: Succeeded for PowerColor Red Devil RX6900XT Ultimate @ I2C:/dev/i2c-6, address 0x22
+19222 |Info:    [ProfileManager] Profile loading: FAILED! for Corsair Commander Core @ HID: /dev/hidraw2
+19222 |Info:    [ProfileManager] Profile loading: Succeeded for Lian Li Strimer L Connect @ HID: /dev/hidraw7
+19222 |Info:    [ProfileManager] Profile loading: Succeeded for Corsair Lighting Node Core @ HID: /dev/hidraw8
+19222 |Info:    [ProfileManager] Profile loading: Succeeded for ASUS ROG Strix Impact II Wireless 2.4 Ghz @ HID: /dev/hidraw4
+19222 |Info:    [ProfileManager] Profile loading: Succeeded for Anne Pro 2 @ HID: /dev/hidraw10
+19222 |Info:    [ProfileManager] Profile loading: Succeeded for MSI B550-A PRO (MS-7C56) @ HID: /dev/hidraw13
+19222 |Info:    [ProfileManager] Profile loading: Succeeded for Corsair Scimitar Elite RGB @ HID: /dev/hidraw15
+35343 |Info:    [ProfileManager] Found file: Green.orp attempting to validate header
+35343 |Info:    [ProfileManager] Valid v5 profile found for Green
+35675 |Info:    [ProfileManager] Found file: Green.orp attempting to validate header
+35675 |Info:    [ProfileManager] Valid v5 profile found for Green
+35841 |Info:    [ProfileManager] Found file: Green.orp attempting to validate header
+35841 |Info:    [ProfileManager] Valid v5 profile found for Green
+36005 |Info:    [ProfileManager] Found file: Green.orp attempting to validate header
+36005 |Info:    [ProfileManager] Valid v5 profile found for Green
+36177 |Info:    [ProfileManager] Found file: Green.orp attempting to validate header
+36177 |Info:    [ProfileManager] Valid v5 profile found for Green
+73047 |Info:    [ProfileManager] Found file: Green.orp attempting to validate header
+73047 |Info:    [ProfileManager] Valid v5 profile found for Green
+73229 |Info:    [ProfileManager] Found file: Green.orp attempting to validate header
+73229 |Info:    [ProfileManager] Valid v5 profile found for Green
+73389 |Info:    [ProfileManager] Found file: Green.orp attempting to validate header
+73389 |Info:    [ProfileManager] Valid v5 profile found for Green
+73559 |Info:    [ProfileManager] Found file: Green.orp attempting to validate header
+73559 |Info:    [ProfileManager] Valid v5 profile found for Green
+73723 |Info:    [ProfileManager] Found file: Green.orp attempting to validate header
+73723 |Info:    [ProfileManager] Valid v5 profile found for Green
+73891 |Info:    [ProfileManager] Found file: Green.orp attempting to validate header
+73891 |Info:    [ProfileManager] Valid v5 profile found for Green
+74047 |Info:    [ProfileManager] Found file: Green.orp attempting to validate header
+74047 |Info:    [ProfileManager] Valid v5 profile found for Green
+74203 |Info:    [ProfileManager] Found file: Green.orp attempting to validate header
+74203 |Info:    [ProfileManager] Valid v5 profile found for Green
+74373 |Info:    [ProfileManager] Found file: Green.orp attempting to validate header
+74373 |Info:    [ProfileManager] Valid v5 profile found for Green
+74579 |Info:    [ProfileManager] Found file: Green.orp attempting to validate header
+74579 |Info:    [ProfileManager] Valid v5 profile found for Green
+74751 |Info:    [ProfileManager] Found file: Green.orp attempting to validate header
+74751 |Info:    [ProfileManager] Valid v5 profile found for Green
+74929 |Info:    [ProfileManager] Found file: Green.orp attempting to validate header
+74929 |Info:    [ProfileManager] Valid v5 profile found for Green
+75105 |Info:    [ProfileManager] Found file: Green.orp attempting to validate header
+75105 |Info:    [ProfileManager] Valid v5 profile found for Green
+76427 |Info:    [ProfileManager] Found file: Green.orp attempting to validate header
+76427 |Info:    [ProfileManager] Valid v5 profile found for Green
+76591 |Info:    [ProfileManager] Found file: Green.orp attempting to validate header
+76591 |Info:    [ProfileManager] Valid v5 profile found for Green
+76739 |Info:    [ProfileManager] Found file: Green.orp attempting to validate header
+76739 |Info:    [ProfileManager] Valid v5 profile found for Green
+76889 |Info:    [ProfileManager] Found file: Green.orp attempting to validate header
+76889 |Info:    [ProfileManager] Valid v5 profile found for Green

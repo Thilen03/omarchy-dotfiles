@@ -1,0 +1,492 @@
+    OpenRGB v0.9
+    Commit: b5f46e3f1de03595656c682fc2f068b66e735e63 from 2023-07-09 22:51:47 -0500
+    Launched: 20251122_202135
+====================================================================================================
+
+0     |Info:    Found file: Green.orp attempting to validate header
+0     |Info:    Valid v4 profile found for Green
+1003  |Info:    ------------------------------------------------------
+1003  |Info:    |               Start device detection               |
+1003  |Info:    ------------------------------------------------------
+1003  |Info:    Initializing HID interfaces: Success
+1025  |Info:    ------------------------------------------------------
+1025  |Info:    |             Detecting I2C interfaces               |
+1025  |Info:    ------------------------------------------------------
+1025  |Info:    Registering I2C interface: /dev/i2c-3 Device 1002:73AF Subsystem: 148C:2414
+1025  |Info:    Registering I2C interface: /dev/i2c-10 Device 1022:790B Subsystem: 1462:7C56
+1025  |Info:    Registering I2C interface: /dev/i2c-1 Device 1002:73AF Subsystem: 148C:2414
+1025  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1025  |Info:    Registering I2C interface: /dev/i2c-8 Device 0000:0000 Subsystem: 0000:0000
+1025  |Info:    Registering I2C interface: /dev/i2c-6 Device 1002:73AF Subsystem: 148C:2414
+1026  |Info:    Registering I2C interface: /dev/i2c-4 Device 1002:73AF Subsystem: 148C:2414
+1026  |Info:    Registering I2C interface: /dev/i2c-11 Device 1022:790B Subsystem: 1462:7C56
+1026  |Info:    Registering I2C interface: /dev/i2c-2 Device 1002:73AF Subsystem: 148C:2414
+1026  |Info:    Registering I2C interface: /dev/i2c-0 Device 1002:73AF Subsystem: 148C:2414
+1026  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1026  |Info:    Registering I2C interface: /dev/i2c-9 Device 0000:0000 Subsystem: 0000:0000
+1026  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1026  |Info:    Registering I2C interface: /dev/i2c-7 Device 0000:0000 Subsystem: 0000:0000
+1026  |Info:    Registering I2C interface: /dev/i2c-5 Device 1002:73AF Subsystem: 148C:2414
+1026  |Info:    Registering I2C interface: /dev/i2c-12 Device 1022:790B Subsystem: 1462:7C56
+1026  |Info:    ------------------------------------------------------
+1026  |Info:    |               Detecting I2C devices                |
+1026  |Info:    ------------------------------------------------------
+2084  |Info:    [HyperX Fury RGB] Registering RGB controller
+2089  |Info:    ------------------------------------------------------
+2089  |Info:    |               Detecting I2C PCI devices            |
+2089  |Info:    ------------------------------------------------------
+2089  |Info:    ------------------------------------------------------
+2089  |Info:    |               Detecting HID devices                |
+2089  |Info:    ------------------------------------------------------
+2228  |Info:    [Corsair Commander Core] Registering RGB controller
+2280  |Info:    [Strimer L Connect] Registering RGB controller
+2333  |Info:    [Corsair Lighting Node Core] Registering RGB controller
+2390  |Info:    [ASUS ROG Strix Impact II Wireless 2.4 Ghz] Registering RGB controller
+2463  |Info:    [MSI B550-A PRO (MS-7C56)] Registering RGB controller
+3522  |Info:    [Corsair Scimitar Elite RGB] Registering RGB controller
+3522  |Info:    ------------------------------------------------------
+3522  |Info:    |            Detecting libusb HID devices            |
+3522  |Info:    ------------------------------------------------------
+3964  |Info:    ------------------------------------------------------
+3964  |Info:    |              Detecting other devices               |
+3964  |Info:    ------------------------------------------------------
+3978  |Info:    ------------------------------------------------------
+3978  |Info:    |                Detection completed                 |
+3978  |Info:    ------------------------------------------------------
+3978  |Info:    Profile loading: FAILED! for HyperX Fury RGB @ I2C: /dev/i2c-10, address 0x27
+3978  |Info:    Profile loading: Succeeded for Corsair Commander Core @ HID: /dev/hidraw2
+3978  |Info:    Profile loading: Succeeded for Strimer L Connect @ HID: /dev/hidraw7
+3978  |Info:    Profile loading: Succeeded for Corsair Lighting Node Core @ HID: /dev/hidraw8
+3978  |Info:    Profile loading: Succeeded for ASUS ROG Strix Impact II Wireless 2.4 Ghz @ HID: /dev/hidraw4
+3978  |Info:    Profile loading: Succeeded for MSI B550-A PRO (MS-7C56) @ HID: /dev/hidraw13
+3978  |Info:    Profile loading: Succeeded for Corsair Scimitar Elite RGB @ HID: /dev/hidraw15
+19892 |Info:    Closing server connection: 127.0.0.1
+46816 |Info:    Closing server connection: 127.0.0.1
+73826 |Info:    Closing server connection: 127.0.0.1
+100820|Info:    Closing server connection: 127.0.0.1
+127824|Info:    Closing server connection: 127.0.0.1
+154814|Info:    Closing server connection: 127.0.0.1
+181816|Info:    Closing server connection: 127.0.0.1
+208819|Info:    Closing server connection: 127.0.0.1
+235824|Info:    Closing server connection: 127.0.0.1
+262820|Info:    Closing server connection: 127.0.0.1
+289823|Info:    Closing server connection: 127.0.0.1
+316815|Info:    Closing server connection: 127.0.0.1
+343823|Info:    Closing server connection: 127.0.0.1
+370814|Info:    Closing server connection: 127.0.0.1
+397815|Info:    Closing server connection: 127.0.0.1
+424819|Info:    Closing server connection: 127.0.0.1
+451817|Info:    Closing server connection: 127.0.0.1
+478816|Info:    Closing server connection: 127.0.0.1
+505816|Info:    Closing server connection: 127.0.0.1
+532813|Info:    Closing server connection: 127.0.0.1
+559822|Info:    Closing server connection: 127.0.0.1
+586823|Info:    Closing server connection: 127.0.0.1
+613818|Info:    Closing server connection: 127.0.0.1
+640818|Info:    Closing server connection: 127.0.0.1
+667805|Info:    Closing server connection: 127.0.0.1
+694813|Info:    Closing server connection: 127.0.0.1
+721813|Info:    Closing server connection: 127.0.0.1
+748819|Info:    Closing server connection: 127.0.0.1
+775816|Info:    Closing server connection: 127.0.0.1
+802815|Info:    Closing server connection: 127.0.0.1
+829814|Info:    Closing server connection: 127.0.0.1
+856829|Info:    Closing server connection: 127.0.0.1
+883820|Info:    Closing server connection: 127.0.0.1
+910805|Info:    Closing server connection: 127.0.0.1
+937811|Info:    Closing server connection: 127.0.0.1
+964827|Info:    Closing server connection: 127.0.0.1
+991823|Info:    Closing server connection: 127.0.0.1
+1018821|Info:    Closing server connection: 127.0.0.1
+1045816|Info:    Closing server connection: 127.0.0.1
+1072821|Info:    Closing server connection: 127.0.0.1
+1099818|Info:    Closing server connection: 127.0.0.1
+1126824|Info:    Closing server connection: 127.0.0.1
+1153818|Info:    Closing server connection: 127.0.0.1
+1180817|Info:    Closing server connection: 127.0.0.1
+1207825|Info:    Closing server connection: 127.0.0.1
+1234815|Info:    Closing server connection: 127.0.0.1
+1261827|Info:    Closing server connection: 127.0.0.1
+1288818|Info:    Closing server connection: 127.0.0.1
+1315808|Info:    Closing server connection: 127.0.0.1
+1342821|Info:    Closing server connection: 127.0.0.1
+1369816|Info:    Closing server connection: 127.0.0.1
+1396823|Info:    Closing server connection: 127.0.0.1
+1423806|Info:    Closing server connection: 127.0.0.1
+1450819|Info:    Closing server connection: 127.0.0.1
+1477816|Info:    Closing server connection: 127.0.0.1
+1504817|Info:    Closing server connection: 127.0.0.1
+1531818|Info:    Closing server connection: 127.0.0.1
+1558807|Info:    Closing server connection: 127.0.0.1
+1585816|Info:    Closing server connection: 127.0.0.1
+1612807|Info:    Closing server connection: 127.0.0.1
+1639806|Info:    Closing server connection: 127.0.0.1
+1666808|Info:    Closing server connection: 127.0.0.1
+1693822|Info:    Closing server connection: 127.0.0.1
+1720821|Info:    Closing server connection: 127.0.0.1
+1747810|Info:    Closing server connection: 127.0.0.1
+1774817|Info:    Closing server connection: 127.0.0.1
+1801816|Info:    Closing server connection: 127.0.0.1
+1828814|Info:    Closing server connection: 127.0.0.1
+1855829|Info:    Closing server connection: 127.0.0.1
+1882822|Info:    Closing server connection: 127.0.0.1
+1909808|Info:    Closing server connection: 127.0.0.1
+1936820|Info:    Closing server connection: 127.0.0.1
+1963816|Info:    Closing server connection: 127.0.0.1
+1990817|Info:    Closing server connection: 127.0.0.1
+2017819|Info:    Closing server connection: 127.0.0.1
+2044806|Info:    Closing server connection: 127.0.0.1
+2071806|Info:    Closing server connection: 127.0.0.1
+2098823|Info:    Closing server connection: 127.0.0.1
+2125815|Info:    Closing server connection: 127.0.0.1
+2152814|Info:    Closing server connection: 127.0.0.1
+2179813|Info:    Closing server connection: 127.0.0.1
+2206815|Info:    Closing server connection: 127.0.0.1
+2233822|Info:    Closing server connection: 127.0.0.1
+2260825|Info:    Closing server connection: 127.0.0.1
+2287806|Info:    Closing server connection: 127.0.0.1
+2314804|Info:    Closing server connection: 127.0.0.1
+2341810|Info:    Closing server connection: 127.0.0.1
+2368830|Info:    Closing server connection: 127.0.0.1
+2395805|Info:    Closing server connection: 127.0.0.1
+2422805|Info:    Closing server connection: 127.0.0.1
+2449809|Info:    Closing server connection: 127.0.0.1
+2476811|Info:    Closing server connection: 127.0.0.1
+2503808|Info:    Closing server connection: 127.0.0.1
+2530810|Info:    Closing server connection: 127.0.0.1
+2557814|Info:    Closing server connection: 127.0.0.1
+2584817|Info:    Closing server connection: 127.0.0.1
+2611812|Info:    Closing server connection: 127.0.0.1
+2638817|Info:    Closing server connection: 127.0.0.1
+2665809|Info:    Closing server connection: 127.0.0.1
+2692832|Info:    Closing server connection: 127.0.0.1
+2719805|Info:    Closing server connection: 127.0.0.1
+2746814|Info:    Closing server connection: 127.0.0.1
+2773807|Info:    Closing server connection: 127.0.0.1
+2800804|Info:    Closing server connection: 127.0.0.1
+2827811|Info:    Closing server connection: 127.0.0.1
+2854812|Info:    Closing server connection: 127.0.0.1
+2881815|Info:    Closing server connection: 127.0.0.1
+2908811|Info:    Closing server connection: 127.0.0.1
+2935805|Info:    Closing server connection: 127.0.0.1
+2962816|Info:    Closing server connection: 127.0.0.1
+2989813|Info:    Closing server connection: 127.0.0.1
+3016813|Info:    Closing server connection: 127.0.0.1
+3043813|Info:    Closing server connection: 127.0.0.1
+3070809|Info:    Closing server connection: 127.0.0.1
+3097809|Info:    Closing server connection: 127.0.0.1
+3124813|Info:    Closing server connection: 127.0.0.1
+3151814|Info:    Closing server connection: 127.0.0.1
+3178821|Info:    Closing server connection: 127.0.0.1
+3205811|Info:    Closing server connection: 127.0.0.1
+3232822|Info:    Closing server connection: 127.0.0.1
+3259814|Info:    Closing server connection: 127.0.0.1
+3286813|Info:    Closing server connection: 127.0.0.1
+3313814|Info:    Closing server connection: 127.0.0.1
+3340812|Info:    Closing server connection: 127.0.0.1
+3367815|Info:    Closing server connection: 127.0.0.1
+3394803|Info:    Closing server connection: 127.0.0.1
+3421806|Info:    Closing server connection: 127.0.0.1
+3448806|Info:    Closing server connection: 127.0.0.1
+3475816|Info:    Closing server connection: 127.0.0.1
+3502811|Info:    Closing server connection: 127.0.0.1
+3529823|Info:    Closing server connection: 127.0.0.1
+3556813|Info:    Closing server connection: 127.0.0.1
+3583820|Info:    Closing server connection: 127.0.0.1
+3610803|Info:    Closing server connection: 127.0.0.1
+3637819|Info:    Closing server connection: 127.0.0.1
+3664823|Info:    Closing server connection: 127.0.0.1
+3691821|Info:    Closing server connection: 127.0.0.1
+3718823|Info:    Closing server connection: 127.0.0.1
+3745818|Info:    Closing server connection: 127.0.0.1
+3772806|Info:    Closing server connection: 127.0.0.1
+3799808|Info:    Closing server connection: 127.0.0.1
+3826801|Info:    Closing server connection: 127.0.0.1
+3853807|Info:    Closing server connection: 127.0.0.1
+3880818|Info:    Closing server connection: 127.0.0.1
+3907800|Info:    Closing server connection: 127.0.0.1
+3934814|Info:    Closing server connection: 127.0.0.1
+3961808|Info:    Closing server connection: 127.0.0.1
+3988814|Info:    Closing server connection: 127.0.0.1
+4015804|Info:    Closing server connection: 127.0.0.1
+4042816|Info:    Closing server connection: 127.0.0.1
+4069811|Info:    Closing server connection: 127.0.0.1
+4096805|Info:    Closing server connection: 127.0.0.1
+4123806|Info:    Closing server connection: 127.0.0.1
+4150808|Info:    Closing server connection: 127.0.0.1
+4177815|Info:    Closing server connection: 127.0.0.1
+4204806|Info:    Closing server connection: 127.0.0.1
+4231812|Info:    Closing server connection: 127.0.0.1
+4258815|Info:    Closing server connection: 127.0.0.1
+4285817|Info:    Closing server connection: 127.0.0.1
+4312802|Info:    Closing server connection: 127.0.0.1
+4339817|Info:    Closing server connection: 127.0.0.1
+4366819|Info:    Closing server connection: 127.0.0.1
+4393805|Info:    Closing server connection: 127.0.0.1
+4420802|Info:    Closing server connection: 127.0.0.1
+4447826|Info:    Closing server connection: 127.0.0.1
+4474816|Info:    Closing server connection: 127.0.0.1
+4501816|Info:    Closing server connection: 127.0.0.1
+4528816|Info:    Closing server connection: 127.0.0.1
+4555820|Info:    Closing server connection: 127.0.0.1
+4582811|Info:    Closing server connection: 127.0.0.1
+4609825|Info:    Closing server connection: 127.0.0.1
+4636817|Info:    Closing server connection: 127.0.0.1
+4663803|Info:    Closing server connection: 127.0.0.1
+4690817|Info:    Closing server connection: 127.0.0.1
+4717811|Info:    Closing server connection: 127.0.0.1
+4744814|Info:    Closing server connection: 127.0.0.1
+4771814|Info:    Closing server connection: 127.0.0.1
+4798823|Info:    Closing server connection: 127.0.0.1
+4825813|Info:    Closing server connection: 127.0.0.1
+4852809|Info:    Closing server connection: 127.0.0.1
+4879817|Info:    Closing server connection: 127.0.0.1
+4906815|Info:    Closing server connection: 127.0.0.1
+4933814|Info:    Closing server connection: 127.0.0.1
+4960813|Info:    Closing server connection: 127.0.0.1
+4987810|Info:    Closing server connection: 127.0.0.1
+5014815|Info:    Closing server connection: 127.0.0.1
+5041827|Info:    Closing server connection: 127.0.0.1
+5068809|Info:    Closing server connection: 127.0.0.1
+5095803|Info:    Closing server connection: 127.0.0.1
+5122804|Info:    Closing server connection: 127.0.0.1
+5149812|Info:    Closing server connection: 127.0.0.1
+5176809|Info:    Closing server connection: 127.0.0.1
+5203806|Info:    Closing server connection: 127.0.0.1
+5230802|Info:    Closing server connection: 127.0.0.1
+5257813|Info:    Closing server connection: 127.0.0.1
+5284808|Info:    Closing server connection: 127.0.0.1
+5311802|Info:    Closing server connection: 127.0.0.1
+5338823|Info:    Closing server connection: 127.0.0.1
+5365814|Info:    Closing server connection: 127.0.0.1
+5392817|Info:    Closing server connection: 127.0.0.1
+5419805|Info:    Closing server connection: 127.0.0.1
+5446813|Info:    Closing server connection: 127.0.0.1
+5473817|Info:    Closing server connection: 127.0.0.1
+5500821|Info:    Closing server connection: 127.0.0.1
+5527816|Info:    Closing server connection: 127.0.0.1
+5554818|Info:    Closing server connection: 127.0.0.1
+5581813|Info:    Closing server connection: 127.0.0.1
+5608811|Info:    Closing server connection: 127.0.0.1
+5635818|Info:    Closing server connection: 127.0.0.1
+5662810|Info:    Closing server connection: 127.0.0.1
+5689814|Info:    Closing server connection: 127.0.0.1
+5716803|Info:    Closing server connection: 127.0.0.1
+5743816|Info:    Closing server connection: 127.0.0.1
+5770807|Info:    Closing server connection: 127.0.0.1
+5797804|Info:    Closing server connection: 127.0.0.1
+5824812|Info:    Closing server connection: 127.0.0.1
+5851809|Info:    Closing server connection: 127.0.0.1
+5878808|Info:    Closing server connection: 127.0.0.1
+5905804|Info:    Closing server connection: 127.0.0.1
+5932805|Info:    Closing server connection: 127.0.0.1
+5959812|Info:    Closing server connection: 127.0.0.1
+5986805|Info:    Closing server connection: 127.0.0.1
+6013804|Info:    Closing server connection: 127.0.0.1
+6040808|Info:    Closing server connection: 127.0.0.1
+6067816|Info:    Closing server connection: 127.0.0.1
+6094807|Info:    Closing server connection: 127.0.0.1
+6121819|Info:    Closing server connection: 127.0.0.1
+6148818|Info:    Closing server connection: 127.0.0.1
+6175813|Info:    Closing server connection: 127.0.0.1
+6202815|Info:    Closing server connection: 127.0.0.1
+6229812|Info:    Closing server connection: 127.0.0.1
+6256809|Info:    Closing server connection: 127.0.0.1
+6283811|Info:    Closing server connection: 127.0.0.1
+6310808|Info:    Closing server connection: 127.0.0.1
+6337813|Info:    Closing server connection: 127.0.0.1
+6364809|Info:    Closing server connection: 127.0.0.1
+6391816|Info:    Closing server connection: 127.0.0.1
+6418807|Info:    Closing server connection: 127.0.0.1
+6445819|Info:    Closing server connection: 127.0.0.1
+6472803|Info:    Closing server connection: 127.0.0.1
+6499822|Info:    Closing server connection: 127.0.0.1
+6526813|Info:    Closing server connection: 127.0.0.1
+6553808|Info:    Closing server connection: 127.0.0.1
+6580816|Info:    Closing server connection: 127.0.0.1
+6607821|Info:    Closing server connection: 127.0.0.1
+6634810|Info:    Closing server connection: 127.0.0.1
+6661815|Info:    Closing server connection: 127.0.0.1
+6688807|Info:    Closing server connection: 127.0.0.1
+6715815|Info:    Closing server connection: 127.0.0.1
+6742811|Info:    Closing server connection: 127.0.0.1
+6769811|Info:    Closing server connection: 127.0.0.1
+6796815|Info:    Closing server connection: 127.0.0.1
+6823812|Info:    Closing server connection: 127.0.0.1
+6850806|Info:    Closing server connection: 127.0.0.1
+6877815|Info:    Closing server connection: 127.0.0.1
+6904815|Info:    Closing server connection: 127.0.0.1
+6931814|Info:    Closing server connection: 127.0.0.1
+6958805|Info:    Closing server connection: 127.0.0.1
+6985810|Info:    Closing server connection: 127.0.0.1
+7012818|Info:    Closing server connection: 127.0.0.1
+7039813|Info:    Closing server connection: 127.0.0.1
+7066813|Info:    Closing server connection: 127.0.0.1
+7093820|Info:    Closing server connection: 127.0.0.1
+7120804|Info:    Closing server connection: 127.0.0.1
+7147807|Info:    Closing server connection: 127.0.0.1
+7174807|Info:    Closing server connection: 127.0.0.1
+7201814|Info:    Closing server connection: 127.0.0.1
+7228807|Info:    Closing server connection: 127.0.0.1
+7255826|Info:    Closing server connection: 127.0.0.1
+7282804|Info:    Closing server connection: 127.0.0.1
+7309805|Info:    Closing server connection: 127.0.0.1
+7336805|Info:    Closing server connection: 127.0.0.1
+7363812|Info:    Closing server connection: 127.0.0.1
+7390807|Info:    Closing server connection: 127.0.0.1
+7417812|Info:    Closing server connection: 127.0.0.1
+7444814|Info:    Closing server connection: 127.0.0.1
+7471812|Info:    Closing server connection: 127.0.0.1
+7498811|Info:    Closing server connection: 127.0.0.1
+7525811|Info:    Closing server connection: 127.0.0.1
+7552811|Info:    Closing server connection: 127.0.0.1
+7579812|Info:    Closing server connection: 127.0.0.1
+7606808|Info:    Closing server connection: 127.0.0.1
+7633818|Info:    Closing server connection: 127.0.0.1
+7660820|Info:    Closing server connection: 127.0.0.1
+7687805|Info:    Closing server connection: 127.0.0.1
+7714819|Info:    Closing server connection: 127.0.0.1
+7741829|Info:    Closing server connection: 127.0.0.1
+7768814|Info:    Closing server connection: 127.0.0.1
+7795819|Info:    Closing server connection: 127.0.0.1
+7822810|Info:    Closing server connection: 127.0.0.1
+7849815|Info:    Closing server connection: 127.0.0.1
+7876812|Info:    Closing server connection: 127.0.0.1
+7903818|Info:    Closing server connection: 127.0.0.1
+7930821|Info:    Closing server connection: 127.0.0.1
+7957811|Info:    Closing server connection: 127.0.0.1
+7984806|Info:    Closing server connection: 127.0.0.1
+8011814|Info:    Closing server connection: 127.0.0.1
+8038804|Info:    Closing server connection: 127.0.0.1
+8065808|Info:    Closing server connection: 127.0.0.1
+8092821|Info:    Closing server connection: 127.0.0.1
+8119815|Info:    Closing server connection: 127.0.0.1
+8146812|Info:    Closing server connection: 127.0.0.1
+8173811|Info:    Closing server connection: 127.0.0.1
+8200812|Info:    Closing server connection: 127.0.0.1
+8227811|Info:    Closing server connection: 127.0.0.1
+8254809|Info:    Closing server connection: 127.0.0.1
+8281817|Info:    Closing server connection: 127.0.0.1
+8308806|Info:    Closing server connection: 127.0.0.1
+8335814|Info:    Closing server connection: 127.0.0.1
+8362806|Info:    Closing server connection: 127.0.0.1
+8389820|Info:    Closing server connection: 127.0.0.1
+8416812|Info:    Closing server connection: 127.0.0.1
+8443811|Info:    Closing server connection: 127.0.0.1
+8470818|Info:    Closing server connection: 127.0.0.1
+8497809|Info:    Closing server connection: 127.0.0.1
+8524812|Info:    Closing server connection: 127.0.0.1
+8551817|Info:    Closing server connection: 127.0.0.1
+8578810|Info:    Closing server connection: 127.0.0.1
+8605813|Info:    Closing server connection: 127.0.0.1
+8632809|Info:    Closing server connection: 127.0.0.1
+8659817|Info:    Closing server connection: 127.0.0.1
+8686811|Info:    Closing server connection: 127.0.0.1
+8713817|Info:    Closing server connection: 127.0.0.1
+8740810|Info:    Closing server connection: 127.0.0.1
+8767810|Info:    Closing server connection: 127.0.0.1
+8794817|Info:    Closing server connection: 127.0.0.1
+8821810|Info:    Closing server connection: 127.0.0.1
+8848811|Info:    Closing server connection: 127.0.0.1
+8875814|Info:    Closing server connection: 127.0.0.1
+8902828|Info:    Closing server connection: 127.0.0.1
+8929824|Info:    Closing server connection: 127.0.0.1
+8956805|Info:    Closing server connection: 127.0.0.1
+8983804|Info:    Closing server connection: 127.0.0.1
+9010809|Info:    Closing server connection: 127.0.0.1
+9037813|Info:    Closing server connection: 127.0.0.1
+9064821|Info:    Closing server connection: 127.0.0.1
+9091812|Info:    Closing server connection: 127.0.0.1
+9118815|Info:    Closing server connection: 127.0.0.1
+9145815|Info:    Closing server connection: 127.0.0.1
+9172806|Info:    Closing server connection: 127.0.0.1
+9199806|Info:    Closing server connection: 127.0.0.1
+9226810|Info:    Closing server connection: 127.0.0.1
+9253810|Info:    Closing server connection: 127.0.0.1
+9280809|Info:    Closing server connection: 127.0.0.1
+9307822|Info:    Closing server connection: 127.0.0.1
+9334808|Info:    Closing server connection: 127.0.0.1
+9361819|Info:    Closing server connection: 127.0.0.1
+9388822|Info:    Closing server connection: 127.0.0.1
+9415806|Info:    Closing server connection: 127.0.0.1
+9442814|Info:    Closing server connection: 127.0.0.1
+9469815|Info:    Closing server connection: 127.0.0.1
+9496818|Info:    Closing server connection: 127.0.0.1
+9523818|Info:    Closing server connection: 127.0.0.1
+9550825|Info:    Closing server connection: 127.0.0.1
+9577805|Info:    Closing server connection: 127.0.0.1
+9604805|Info:    Closing server connection: 127.0.0.1
+9631810|Info:    Closing server connection: 127.0.0.1
+9658819|Info:    Closing server connection: 127.0.0.1
+9685807|Info:    Closing server connection: 127.0.0.1
+9712815|Info:    Closing server connection: 127.0.0.1
+9739803|Info:    Closing server connection: 127.0.0.1
+9766818|Info:    Closing server connection: 127.0.0.1
+9793813|Info:    Closing server connection: 127.0.0.1
+9820807|Info:    Closing server connection: 127.0.0.1
+9847811|Info:    Closing server connection: 127.0.0.1
+9874816|Info:    Closing server connection: 127.0.0.1
+9901813|Info:    Closing server connection: 127.0.0.1
+9928819|Info:    Closing server connection: 127.0.0.1
+9955814|Info:    Closing server connection: 127.0.0.1
+9982805|Info:    Closing server connection: 127.0.0.1
+10009808|Info:    Closing server connection: 127.0.0.1
+10036809|Info:    Closing server connection: 127.0.0.1
+10063819|Info:    Closing server connection: 127.0.0.1
+10090813|Info:    Closing server connection: 127.0.0.1
+10117805|Info:    Closing server connection: 127.0.0.1
+10144814|Info:    Closing server connection: 127.0.0.1
+10171817|Info:    Closing server connection: 127.0.0.1
+10198820|Info:    Closing server connection: 127.0.0.1
+10225811|Info:    Closing server connection: 127.0.0.1
+10252813|Info:    Closing server connection: 127.0.0.1
+10279811|Info:    Closing server connection: 127.0.0.1
+10306810|Info:    Closing server connection: 127.0.0.1
+10333806|Info:    Closing server connection: 127.0.0.1
+10360805|Info:    Closing server connection: 127.0.0.1
+10387817|Info:    Closing server connection: 127.0.0.1
+10414803|Info:    Closing server connection: 127.0.0.1
+10441817|Info:    Closing server connection: 127.0.0.1
+10468804|Info:    Closing server connection: 127.0.0.1
+10495809|Info:    Closing server connection: 127.0.0.1
+10522802|Info:    Closing server connection: 127.0.0.1
+10549813|Info:    Closing server connection: 127.0.0.1
+10576815|Info:    Closing server connection: 127.0.0.1
+10603814|Info:    Closing server connection: 127.0.0.1
+10630807|Info:    Closing server connection: 127.0.0.1
+10657811|Info:    Closing server connection: 127.0.0.1
+10684803|Info:    Closing server connection: 127.0.0.1
+10711816|Info:    Closing server connection: 127.0.0.1
+10738807|Info:    Closing server connection: 127.0.0.1
+10765804|Info:    Closing server connection: 127.0.0.1
+10792805|Info:    Closing server connection: 127.0.0.1
+10819812|Info:    Closing server connection: 127.0.0.1
+10846804|Info:    Closing server connection: 127.0.0.1
+10873806|Info:    Closing server connection: 127.0.0.1
+10900810|Info:    Closing server connection: 127.0.0.1
+10927811|Info:    Closing server connection: 127.0.0.1
+10954806|Info:    Closing server connection: 127.0.0.1
+10981804|Info:    Closing server connection: 127.0.0.1
+11008823|Info:    Closing server connection: 127.0.0.1
+11035822|Info:    Closing server connection: 127.0.0.1
+11062813|Info:    Closing server connection: 127.0.0.1
+11089804|Info:    Closing server connection: 127.0.0.1
+11116807|Info:    Closing server connection: 127.0.0.1
+11143808|Info:    Closing server connection: 127.0.0.1
+11170805|Info:    Closing server connection: 127.0.0.1
+11197816|Info:    Closing server connection: 127.0.0.1
+11224807|Info:    Closing server connection: 127.0.0.1
+11251813|Info:    Closing server connection: 127.0.0.1
+11278804|Info:    Closing server connection: 127.0.0.1
+11305816|Info:    Closing server connection: 127.0.0.1
+11332805|Info:    Closing server connection: 127.0.0.1
+11359811|Info:    Closing server connection: 127.0.0.1
+11386804|Info:    Closing server connection: 127.0.0.1
+11413809|Info:    Closing server connection: 127.0.0.1
+11440819|Info:    Closing server connection: 127.0.0.1
+11467806|Info:    Closing server connection: 127.0.0.1
+11494809|Info:    Closing server connection: 127.0.0.1
+11521814|Info:    Closing server connection: 127.0.0.1
+11548807|Info:    Closing server connection: 127.0.0.1
+11575806|Info:    Closing server connection: 127.0.0.1
+11602802|Info:    Closing server connection: 127.0.0.1

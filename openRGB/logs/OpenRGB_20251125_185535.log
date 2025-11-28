@@ -1,0 +1,561 @@
+    OpenRGB v0.9+ (git1721)
+    Commit: 6e53097f83e2b086006e407749a4377ff991e342 from 2025-11-23 10:38:31 +0800
+    Launched: 20251125_185535
+====================================================================================================
+
+0     |Info:    [ProfileManager] Found file: Green.orp attempting to validate header
+0     |Info:    [ProfileManager] Valid v5 profile found for Green
+53    |Info:    [NetworkServer] Network connection thread started on port 6742
+54    |Info:    [ResourceManager] Initializing HID interfaces: Success
+54    |Info:    ------------------------------------------------------
+54    |Info:    |               Start device detection               |
+54    |Info:    ------------------------------------------------------
+76    |Info:    ------------------------------------------------------
+76    |Info:    |             Detecting I2C interfaces               |
+76    |Info:    ------------------------------------------------------
+76    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-3 Device 1002:73AF Subsystem: 148C:2414
+76    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-10 Device 1022:790B Subsystem: 1462:7C56
+76    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-1 Device 1002:73AF Subsystem: 148C:2414
+76    |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+76    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-8 Device 0000:0000 Subsystem: 0000:0000
+76    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-6 Device 1002:73AF Subsystem: 148C:2414
+76    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-4 Device 1002:73AF Subsystem: 148C:2414
+76    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-11 Device 1022:790B Subsystem: 1462:7C56
+77    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-2 Device 1002:73AF Subsystem: 148C:2414
+77    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-0 Device 1002:73AF Subsystem: 148C:2414
+77    |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+77    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-9 Device 0000:0000 Subsystem: 0000:0000
+77    |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+77    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-7 Device 0000:0000 Subsystem: 0000:0000
+77    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-5 Device 1002:73AF Subsystem: 148C:2414
+77    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-12 Device 1022:790B Subsystem: 1462:7C56
+77    |Info:    ------------------------------------------------------
+77    |Info:    |               Detecting I2C devices                |
+77    |Info:    ------------------------------------------------------
+1088  |Info:    ------------------------------------------------------
+1088  |Info:    |            Detecting I2C DIMM modules              |
+1088  |Info:    ------------------------------------------------------
+1100  |Info:    [ResourceManager] Detected occupied slot 1, bus 1, type DDR4
+1117  |Info:    [ResourceManager] Detected occupied slot 2, bus 1, type DDR4
+1138  |Info:    [ResourceManager] Detected occupied slot 3, bus 1, type DDR4
+1166  |Info:    [ResourceManager] Detected occupied slot 4, bus 1, type DDR4
+1337  |Info:    [HyperX Predator RGB] Registering RGB controller
+1424  |Info:    ------------------------------------------------------
+1424  |Info:    |               Detecting I2C PCI devices            |
+1424  |Info:    ------------------------------------------------------
+2807  |Info:    [PowerColor Red Devil RX6900XT Ultimate] Registering RGB controller
+2890  |Info:    ------------------------------------------------------
+2890  |Info:    |               Detecting HID devices                |
+2890  |Info:    ------------------------------------------------------
+2942  |Info:    [Lian Li Strimer L Connect] Registering RGB controller
+2995  |Info:    [Corsair Lighting Node Core] Registering RGB controller
+3051  |Info:    [ASUS ROG Strix Impact II Wireless 2.4 Ghz] Registering RGB controller
+3103  |Info:    [Anne Pro 2] Registering RGB controller
+3177  |Info:    [MSI B550-A PRO (MS-7C56)] Registering RGB controller
+4256  |Info:    [Corsair Scimitar Elite RGB] Registering RGB controller
+4256  |Info:    ------------------------------------------------------
+4256  |Info:    |            Detecting libusb HID devices            |
+4256  |Info:    ------------------------------------------------------
+4525  |Info:    ------------------------------------------------------
+4525  |Info:    |              Detecting other devices               |
+4525  |Info:    ------------------------------------------------------
+4563  |Info:    [ResourceManager] Calling Post-detection callbacks
+4563  |Info:    ------------------------------------------------------
+4563  |Info:    |                Detection completed                 |
+4563  |Info:    ------------------------------------------------------
+4563  |Info:    [ProfileManager] Profile loading: FAILED! for HyperX Predator RGB @ I2C: /dev/i2c-10, address 0x27
+4563  |Info:    [ProfileManager] Profile loading: FAILED! for PowerColor Red Devil RX6900XT Ultimate @ I2C:/dev/i2c-6, address 0x22
+4563  |Info:    [ProfileManager] Profile loading: FAILED! for Lian Li Strimer L Connect @ HID: /dev/hidraw7
+4563  |Info:    [ProfileManager] Profile loading: Succeeded for Corsair Lighting Node Core @ HID: /dev/hidraw8
+4563  |Info:    [ProfileManager] Profile loading: Succeeded for ASUS ROG Strix Impact II Wireless 2.4 Ghz @ HID: /dev/hidraw4
+4563  |Info:    [ProfileManager] Profile loading: FAILED! for Anne Pro 2 @ HID: /dev/hidraw10
+4563  |Info:    [ProfileManager] Profile loading: Succeeded for MSI B550-A PRO (MS-7C56) @ HID: /dev/hidraw13
+4563  |Info:    [ProfileManager] Profile loading: Succeeded for Corsair Scimitar Elite RGB @ HID: /dev/hidraw15
+18051 |Info:    [NetworkServer] Network server started
+19817 |ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+19817 |Info:    [NetworkServer] Closing server connection: 127.0.0.1
+44920 |Info:    [NetworkServer] Network server started
+46693 |ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+46693 |Info:    [NetworkServer] Closing server connection: 127.0.0.1
+71914 |Info:    [NetworkServer] Network server started
+73680 |ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+73680 |Info:    [NetworkServer] Closing server connection: 127.0.0.1
+98916 |Info:    [NetworkServer] Network server started
+100678|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+100678|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+113835|Info:    [NetworkServer] Network server started
+125916|Info:    [NetworkServer] Network server started
+127677|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+127677|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+152923|Info:    [NetworkServer] Network server started
+154695|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+154695|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+179919|Info:    [NetworkServer] Network server started
+181687|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+181687|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+206882|Info:    [NetworkServer] Network server started
+208648|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+208648|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+233917|Info:    [NetworkServer] Network server started
+235690|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+235690|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+260915|Info:    [NetworkServer] Network server started
+262688|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+262688|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+287924|Info:    [NetworkServer] Network server started
+289694|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+289695|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+314927|Info:    [NetworkServer] Network server started
+316700|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+316701|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+341918|Info:    [NetworkServer] Network server started
+343691|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+343691|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+368922|Info:    [NetworkServer] Network server started
+370688|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+370688|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+395911|Info:    [NetworkServer] Network server started
+397680|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+397680|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+422917|Info:    [NetworkServer] Network server started
+424686|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+424686|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+449915|Info:    [NetworkServer] Network server started
+451680|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+451680|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+476913|Info:    [NetworkServer] Network server started
+478683|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+478683|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+503917|Info:    [NetworkServer] Network server started
+505679|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+505679|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+530916|Info:    [NetworkServer] Network server started
+532688|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+532688|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+557923|Info:    [NetworkServer] Network server started
+559692|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+559692|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+584919|Info:    [NetworkServer] Network server started
+586687|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+586687|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+611918|Info:    [NetworkServer] Network server started
+613684|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+613684|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+638919|Info:    [NetworkServer] Network server started
+640687|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+640687|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+665918|Info:    [NetworkServer] Network server started
+667684|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+667684|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+692926|Info:    [NetworkServer] Network server started
+694687|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+694687|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+719913|Info:    [NetworkServer] Network server started
+721676|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+721676|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+746916|Info:    [NetworkServer] Network server started
+748684|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+748684|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+773921|Info:    [NetworkServer] Network server started
+775683|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+775683|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+800918|Info:    [NetworkServer] Network server started
+802686|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+802686|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+827923|Info:    [NetworkServer] Network server started
+829686|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+829686|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+854919|Info:    [NetworkServer] Network server started
+856681|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+856681|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+881919|Info:    [NetworkServer] Network server started
+883693|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+883693|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+908918|Info:    [NetworkServer] Network server started
+910685|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+910685|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+935916|Info:    [NetworkServer] Network server started
+937685|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+937685|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+962923|Info:    [NetworkServer] Network server started
+964691|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+964691|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+989921|Info:    [NetworkServer] Network server started
+991683|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+991683|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+1016916|Info:    [NetworkServer] Network server started
+1018688|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+1018688|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+1043919|Info:    [NetworkServer] Network server started
+1045690|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+1045691|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+1070914|Info:    [NetworkServer] Network server started
+1072681|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+1072681|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+1097914|Info:    [NetworkServer] Network server started
+1099686|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+1099686|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+1124917|Info:    [NetworkServer] Network server started
+1126687|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+1126687|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+1151912|Info:    [NetworkServer] Network server started
+1153673|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+1153673|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+1178907|Info:    [NetworkServer] Network server started
+1180671|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+1180671|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+1205910|Info:    [NetworkServer] Network server started
+1207677|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+1207677|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+1232910|Info:    [NetworkServer] Network server started
+1234677|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+1234677|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+1259910|Info:    [NetworkServer] Network server started
+1261685|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+1261685|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+1286915|Info:    [NetworkServer] Network server started
+1288685|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+1288685|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+1313917|Info:    [NetworkServer] Network server started
+1315679|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+1315679|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+1340916|Info:    [NetworkServer] Network server started
+1342687|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+1342687|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+1367923|Info:    [NetworkServer] Network server started
+1369691|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+1369691|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+1394907|Info:    [NetworkServer] Network server started
+1396679|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+1396679|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+1421920|Info:    [NetworkServer] Network server started
+1423689|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+1423689|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+1448910|Info:    [NetworkServer] Network server started
+1450677|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+1450677|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+1475728|Info:    [NetworkServer] Network server started
+1477495|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+1477495|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+1502658|Info:    [NetworkServer] Network server started
+1504425|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+1504425|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+1529670|Info:    [NetworkServer] Network server started
+1531433|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+1531433|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+1556674|Info:    [NetworkServer] Network server started
+1558441|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+1558441|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+1583667|Info:    [NetworkServer] Network server started
+1585440|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+1585440|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+1610669|Info:    [NetworkServer] Network server started
+1612436|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+1612436|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+1637668|Info:    [NetworkServer] Network server started
+1639439|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+1639439|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+1664669|Info:    [NetworkServer] Network server started
+1666431|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+1666431|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+1691668|Info:    [NetworkServer] Network server started
+1693434|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+1693434|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+1718676|Info:    [NetworkServer] Network server started
+1720439|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+1720439|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+1745665|Info:    [NetworkServer] Network server started
+1747430|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+1747430|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+1772666|Info:    [NetworkServer] Network server started
+1774432|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+1774432|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+1799668|Info:    [NetworkServer] Network server started
+1801434|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+1801434|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+1826658|Info:    [NetworkServer] Network server started
+1828426|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+1828426|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+1853660|Info:    [NetworkServer] Network server started
+1855421|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+1855421|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+1880661|Info:    [NetworkServer] Network server started
+1882427|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+1882427|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+1907671|Info:    [NetworkServer] Network server started
+1909432|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+1909432|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+1934668|Info:    [NetworkServer] Network server started
+1936434|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+1936434|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+1961669|Info:    [NetworkServer] Network server started
+1963435|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+1963435|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+1988657|Info:    [NetworkServer] Network server started
+1990432|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+1990432|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+2015668|Info:    [NetworkServer] Network server started
+2017436|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+2017436|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+2042668|Info:    [NetworkServer] Network server started
+2044434|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+2044434|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+2069675|Info:    [NetworkServer] Network server started
+2071441|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+2071441|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+2096657|Info:    [NetworkServer] Network server started
+2098424|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+2098424|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+2123666|Info:    [NetworkServer] Network server started
+2125432|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+2125432|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+2150670|Info:    [NetworkServer] Network server started
+2152435|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+2152435|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+2177665|Info:    [NetworkServer] Network server started
+2179434|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+2179434|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+2204666|Info:    [NetworkServer] Network server started
+2206439|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+2206439|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+2231666|Info:    [NetworkServer] Network server started
+2233433|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+2233433|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+2258665|Info:    [NetworkServer] Network server started
+2260437|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+2260437|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+2285667|Info:    [NetworkServer] Network server started
+2287434|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+2287434|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+2312671|Info:    [NetworkServer] Network server started
+2314442|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+2314442|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+2339675|Info:    [NetworkServer] Network server started
+2341443|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+2341443|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+2366660|Info:    [NetworkServer] Network server started
+2368426|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+2368426|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+2393664|Info:    [NetworkServer] Network server started
+2395436|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+2395436|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+2420659|Info:    [NetworkServer] Network server started
+2422433|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+2422433|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+2447663|Info:    [NetworkServer] Network server started
+2449430|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+2449430|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+2474669|Info:    [NetworkServer] Network server started
+2476441|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+2476441|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+2501668|Info:    [NetworkServer] Network server started
+2503442|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+2503442|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+2528661|Info:    [NetworkServer] Network server started
+2530428|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+2530428|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+2555660|Info:    [NetworkServer] Network server started
+2557432|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+2557432|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+2582665|Info:    [NetworkServer] Network server started
+2584427|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+2584427|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+2609668|Info:    [NetworkServer] Network server started
+2611440|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+2611440|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+2636661|Info:    [NetworkServer] Network server started
+2638436|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+2638436|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+2663675|Info:    [NetworkServer] Network server started
+2665444|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+2665444|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+2690659|Info:    [NetworkServer] Network server started
+2692428|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+2692428|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+2717663|Info:    [NetworkServer] Network server started
+2719436|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+2719436|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+2744675|Info:    [NetworkServer] Network server started
+2746447|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+2746447|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+2771665|Info:    [NetworkServer] Network server started
+2773434|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+2773434|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+2798671|Info:    [NetworkServer] Network server started
+2800434|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+2800434|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+2825657|Info:    [NetworkServer] Network server started
+2827425|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+2827425|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+2839209|Info:    [NetworkServer] Network server started
+2842700|Info:    [ResourceManager] Initializing HID interfaces: Success
+2842700|Info:    ------------------------------------------------------
+2842700|Info:    |               Start device detection               |
+2842700|Info:    ------------------------------------------------------
+2842721|Info:    ------------------------------------------------------
+2842721|Info:    |             Detecting I2C interfaces               |
+2842721|Info:    ------------------------------------------------------
+2842721|Info:    [ResourceManager] Registering I2C interface: /dev/i2c-3 Device 1002:73AF Subsystem: 148C:2414
+2842721|Info:    [ResourceManager] Registering I2C interface: /dev/i2c-10 Device 1022:790B Subsystem: 1462:7C56
+2842721|Info:    [ResourceManager] Registering I2C interface: /dev/i2c-1 Device 1002:73AF Subsystem: 148C:2414
+2842721|Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+2842721|Info:    [ResourceManager] Registering I2C interface: /dev/i2c-8 Device 0000:0000 Subsystem: 0000:0000
+2842722|Info:    [ResourceManager] Registering I2C interface: /dev/i2c-6 Device 1002:73AF Subsystem: 148C:2414
+2842722|Info:    [ResourceManager] Registering I2C interface: /dev/i2c-4 Device 1002:73AF Subsystem: 148C:2414
+2842722|Info:    [ResourceManager] Registering I2C interface: /dev/i2c-11 Device 1022:790B Subsystem: 1462:7C56
+2842722|Info:    [ResourceManager] Registering I2C interface: /dev/i2c-2 Device 1002:73AF Subsystem: 148C:2414
+2842722|Info:    [ResourceManager] Registering I2C interface: /dev/i2c-0 Device 1002:73AF Subsystem: 148C:2414
+2842722|Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+2842722|Info:    [ResourceManager] Registering I2C interface: /dev/i2c-9 Device 0000:0000 Subsystem: 0000:0000
+2842722|Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+2842722|Info:    [ResourceManager] Registering I2C interface: /dev/i2c-7 Device 0000:0000 Subsystem: 0000:0000
+2842722|Info:    [ResourceManager] Registering I2C interface: /dev/i2c-5 Device 1002:73AF Subsystem: 148C:2414
+2842722|Info:    [ResourceManager] Registering I2C interface: /dev/i2c-12 Device 1022:790B Subsystem: 1462:7C56
+2842722|Info:    ------------------------------------------------------
+2842722|Info:    |               Detecting I2C devices                |
+2842722|Info:    ------------------------------------------------------
+2843720|Info:    ------------------------------------------------------
+2843720|Info:    |            Detecting I2C DIMM modules              |
+2843720|Info:    ------------------------------------------------------
+2843731|Info:    [ResourceManager] Detected occupied slot 1, bus 1, type DDR4
+2843747|Info:    [ResourceManager] Detected occupied slot 2, bus 1, type DDR4
+2843768|Info:    [ResourceManager] Detected occupied slot 3, bus 1, type DDR4
+2843796|Info:    [ResourceManager] Detected occupied slot 4, bus 1, type DDR4
+2843967|Info:    [HyperX Predator RGB] Registering RGB controller
+2844054|Info:    ------------------------------------------------------
+2844054|Info:    |               Detecting I2C PCI devices            |
+2844054|Info:    ------------------------------------------------------
+2845434|Info:    [PowerColor Red Devil RX6900XT Ultimate] Registering RGB controller
+2845519|Info:    ------------------------------------------------------
+2845519|Info:    |               Detecting HID devices                |
+2845519|Info:    ------------------------------------------------------
+2845571|Info:    [Lian Li Strimer L Connect] Registering RGB controller
+2845626|Info:    [Corsair Lighting Node Core] Registering RGB controller
+2845684|Info:    [ASUS ROG Strix Impact II Wireless 2.4 Ghz] Registering RGB controller
+2845736|Info:    [Anne Pro 2] Registering RGB controller
+2845809|Info:    [MSI B550-A PRO (MS-7C56)] Registering RGB controller
+2846888|Info:    [Corsair Scimitar Elite RGB] Registering RGB controller
+2846888|Info:    ------------------------------------------------------
+2846888|Info:    |            Detecting libusb HID devices            |
+2846888|Info:    ------------------------------------------------------
+2847135|Info:    ------------------------------------------------------
+2847135|Info:    |              Detecting other devices               |
+2847135|Info:    ------------------------------------------------------
+2847153|Info:    [ResourceManager] Calling Post-detection callbacks
+2847153|Info:    ------------------------------------------------------
+2847153|Info:    |                Detection completed                 |
+2847153|Info:    ------------------------------------------------------
+2852667|Info:    [NetworkServer] Network server started
+2854434|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+2854434|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+2879657|Info:    [NetworkServer] Network server started
+2881426|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+2881426|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+2906657|Info:    [NetworkServer] Network server started
+2908424|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+2908424|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+2927037|Info:    [NetworkServer] Network server started
+2933670|Info:    [NetworkServer] Network server started
+2935437|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+2935437|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+2941249|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+2941249|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+2948393|Info:    [NetworkServer] Network server started
+2960658|Info:    [NetworkServer] Network server started
+2962430|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+2962430|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+2987666|Info:    [NetworkServer] Network server started
+2989434|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+2989434|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+3014668|Info:    [NetworkServer] Network server started
+3016437|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+3016437|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+3041658|Info:    [NetworkServer] Network server started
+3043423|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+3043423|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+3068127|Info:    [NetworkServer] Network server started
+3068658|Info:    [NetworkServer] Network server started
+3070426|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+3070426|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+3095657|Info:    [NetworkServer] Network server started
+3097426|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+3097426|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+3122667|Info:    [NetworkServer] Network server started
+3124434|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+3124434|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+3149667|Info:    [NetworkServer] Network server started
+3151438|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+3151438|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+3176667|Info:    [NetworkServer] Network server started
+3178440|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+3178440|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+3203659|Info:    [NetworkServer] Network server started
+3205427|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+3205427|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+3230660|Info:    [NetworkServer] Network server started
+3232437|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+3232437|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+3257657|Info:    [NetworkServer] Network server started
+3259423|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+3259423|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+3284657|Info:    [NetworkServer] Network server started
+3286430|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+3286430|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+3311668|Info:    [NetworkServer] Network server started
+3313440|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+3313440|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+3338664|Info:    [NetworkServer] Network server started
+3340431|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+3340431|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+3365659|Info:    [NetworkServer] Network server started
+3367425|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+3367425|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+3392659|Info:    [NetworkServer] Network server started
+3394422|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+3394422|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+3419655|Info:    [NetworkServer] Network server started
+3421422|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+3421422|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+3446659|Info:    [NetworkServer] Network server started
+3448437|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+3448437|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+3473659|Info:    [NetworkServer] Network server started
+3475432|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+3475432|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+3500657|Info:    [NetworkServer] Network server started
+3502425|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+3502425|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+3527667|Info:    [NetworkServer] Network server started
+3529440|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+3529440|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+3554655|Info:    [NetworkServer] Network server started
+3556428|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+3556428|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+3581667|Info:    [NetworkServer] Network server started
+3583439|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+3583439|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+3608668|Info:    [NetworkServer] Network server started
+3610434|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+3610434|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+3635667|Info:    [NetworkServer] Network server started
+3637442|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+3637442|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+3662655|Info:    [NetworkServer] Network server started
+3664423|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+3664423|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+3689658|Info:    [NetworkServer] Network server started
+3691425|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+3691425|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+3716659|Info:    [NetworkServer] Network server started
+3718426|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+3718426|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+3743666|Info:    [NetworkServer] Network server started
+3745434|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+3745434|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+3770668|Info:    [NetworkServer] Network server started
+3772435|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+3772435|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+3773853|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+3773853|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+3773853|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+3773854|Info:    [NetworkServer] Closing server connection: 127.0.0.1

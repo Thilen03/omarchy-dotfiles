@@ -1,0 +1,171 @@
+    OpenRGB v0.9+ (git1721)
+    Commit: 6e53097f83e2b086006e407749a4377ff991e342 from 2025-11-23 10:38:31 +0800
+    Launched: 20251125_185728
+====================================================================================================
+
+8     |Info:    [ProfileManager] Found file: Green.orp attempting to validate header
+8     |Info:    [ProfileManager] Valid v5 profile found for Green
+773   |Info:    [ResourceManager] Calling Post-detection callbacks
+773   |Info:    ------------------------------------------------------
+773   |Info:    |                Detection completed                 |
+773   |Info:    ------------------------------------------------------
+2915  |Info:    [ProfileManager] Profile loading: FAILED! for HyperX Predator RGB @ I2C: /dev/i2c-10, address 0x27
+2916  |Info:    [ProfileManager] Profile loading: FAILED! for PowerColor Red Devil RX6900XT Ultimate @ I2C:/dev/i2c-6, address 0x22
+2916  |Info:    [ProfileManager] Profile loading: FAILED! for Lian Li Strimer L Connect @ HID: /dev/hidraw7
+2916  |Info:    [ProfileManager] Profile loading: Succeeded for Corsair Lighting Node Core @ HID: /dev/hidraw8
+2916  |Info:    [ProfileManager] Profile loading: Succeeded for ASUS ROG Strix Impact II Wireless 2.4 Ghz @ HID: /dev/hidraw4
+2916  |Info:    [ProfileManager] Profile loading: FAILED! for Anne Pro 2 @ HID: /dev/hidraw10
+2916  |Info:    [ProfileManager] Profile loading: Succeeded for MSI B550-A PRO (MS-7C56) @ HID: /dev/hidraw13
+2916  |Info:    [ProfileManager] Profile loading: Succeeded for Corsair Scimitar Elite RGB @ HID: /dev/hidraw15
+3402  |Info:    [ProfileManager] Profile loading: FAILED! for HyperX Predator RGB @ I2C: /dev/i2c-10, address 0x27
+3402  |Info:    [ProfileManager] Profile loading: FAILED! for PowerColor Red Devil RX6900XT Ultimate @ I2C:/dev/i2c-6, address 0x22
+3402  |Info:    [ProfileManager] Profile loading: FAILED! for Lian Li Strimer L Connect @ HID: /dev/hidraw7
+3402  |Info:    [ProfileManager] Profile loading: Succeeded for Corsair Lighting Node Core @ HID: /dev/hidraw8
+3402  |Info:    [ProfileManager] Profile loading: Succeeded for ASUS ROG Strix Impact II Wireless 2.4 Ghz @ HID: /dev/hidraw4
+3402  |Info:    [ProfileManager] Profile loading: FAILED! for Anne Pro 2 @ HID: /dev/hidraw10
+3402  |Info:    [ProfileManager] Profile loading: Succeeded for MSI B550-A PRO (MS-7C56) @ HID: /dev/hidraw13
+3402  |Info:    [ProfileManager] Profile loading: Succeeded for Corsair Scimitar Elite RGB @ HID: /dev/hidraw15
+3769  |Info:    [ProfileManager] Profile loading: FAILED! for HyperX Predator RGB @ I2C: /dev/i2c-10, address 0x27
+3769  |Info:    [ProfileManager] Profile loading: FAILED! for PowerColor Red Devil RX6900XT Ultimate @ I2C:/dev/i2c-6, address 0x22
+3769  |Info:    [ProfileManager] Profile loading: FAILED! for Lian Li Strimer L Connect @ HID: /dev/hidraw7
+3769  |Info:    [ProfileManager] Profile loading: Succeeded for Corsair Lighting Node Core @ HID: /dev/hidraw8
+3769  |Info:    [ProfileManager] Profile loading: Succeeded for ASUS ROG Strix Impact II Wireless 2.4 Ghz @ HID: /dev/hidraw4
+3769  |Info:    [ProfileManager] Profile loading: FAILED! for Anne Pro 2 @ HID: /dev/hidraw10
+3769  |Info:    [ProfileManager] Profile loading: Succeeded for MSI B550-A PRO (MS-7C56) @ HID: /dev/hidraw13
+3769  |Info:    [ProfileManager] Profile loading: Succeeded for Corsair Scimitar Elite RGB @ HID: /dev/hidraw15
+3964  |Info:    [ProfileManager] Profile loading: FAILED! for HyperX Predator RGB @ I2C: /dev/i2c-10, address 0x27
+3964  |Info:    [ProfileManager] Profile loading: FAILED! for PowerColor Red Devil RX6900XT Ultimate @ I2C:/dev/i2c-6, address 0x22
+3964  |Info:    [ProfileManager] Profile loading: FAILED! for Lian Li Strimer L Connect @ HID: /dev/hidraw7
+3964  |Info:    [ProfileManager] Profile loading: Succeeded for Corsair Lighting Node Core @ HID: /dev/hidraw8
+3964  |Info:    [ProfileManager] Profile loading: Succeeded for ASUS ROG Strix Impact II Wireless 2.4 Ghz @ HID: /dev/hidraw4
+3964  |Info:    [ProfileManager] Profile loading: FAILED! for Anne Pro 2 @ HID: /dev/hidraw10
+3964  |Info:    [ProfileManager] Profile loading: Succeeded for MSI B550-A PRO (MS-7C56) @ HID: /dev/hidraw13
+3964  |Info:    [ProfileManager] Profile loading: Succeeded for Corsair Scimitar Elite RGB @ HID: /dev/hidraw15
+4371  |Info:    [ProfileManager] Profile loading: FAILED! for HyperX Predator RGB @ I2C: /dev/i2c-10, address 0x27
+4371  |Info:    [ProfileManager] Profile loading: FAILED! for PowerColor Red Devil RX6900XT Ultimate @ I2C:/dev/i2c-6, address 0x22
+4371  |Info:    [ProfileManager] Profile loading: FAILED! for Lian Li Strimer L Connect @ HID: /dev/hidraw7
+4371  |Info:    [ProfileManager] Profile loading: Succeeded for Corsair Lighting Node Core @ HID: /dev/hidraw8
+4371  |Info:    [ProfileManager] Profile loading: Succeeded for ASUS ROG Strix Impact II Wireless 2.4 Ghz @ HID: /dev/hidraw4
+4371  |Info:    [ProfileManager] Profile loading: FAILED! for Anne Pro 2 @ HID: /dev/hidraw10
+4371  |Info:    [ProfileManager] Profile loading: Succeeded for MSI B550-A PRO (MS-7C56) @ HID: /dev/hidraw13
+4371  |Info:    [ProfileManager] Profile loading: Succeeded for Corsair Scimitar Elite RGB @ HID: /dev/hidraw15
+4536  |Info:    [ProfileManager] Profile loading: FAILED! for HyperX Predator RGB @ I2C: /dev/i2c-10, address 0x27
+4536  |Info:    [ProfileManager] Profile loading: FAILED! for PowerColor Red Devil RX6900XT Ultimate @ I2C:/dev/i2c-6, address 0x22
+4536  |Info:    [ProfileManager] Profile loading: FAILED! for Lian Li Strimer L Connect @ HID: /dev/hidraw7
+4536  |Info:    [ProfileManager] Profile loading: Succeeded for Corsair Lighting Node Core @ HID: /dev/hidraw8
+4536  |Info:    [ProfileManager] Profile loading: Succeeded for ASUS ROG Strix Impact II Wireless 2.4 Ghz @ HID: /dev/hidraw4
+4536  |Info:    [ProfileManager] Profile loading: FAILED! for Anne Pro 2 @ HID: /dev/hidraw10
+4536  |Info:    [ProfileManager] Profile loading: Succeeded for MSI B550-A PRO (MS-7C56) @ HID: /dev/hidraw13
+4536  |Info:    [ProfileManager] Profile loading: Succeeded for Corsair Scimitar Elite RGB @ HID: /dev/hidraw15
+4705  |Info:    [ProfileManager] Profile loading: FAILED! for HyperX Predator RGB @ I2C: /dev/i2c-10, address 0x27
+4705  |Info:    [ProfileManager] Profile loading: FAILED! for PowerColor Red Devil RX6900XT Ultimate @ I2C:/dev/i2c-6, address 0x22
+4705  |Info:    [ProfileManager] Profile loading: FAILED! for Lian Li Strimer L Connect @ HID: /dev/hidraw7
+4705  |Info:    [ProfileManager] Profile loading: Succeeded for Corsair Lighting Node Core @ HID: /dev/hidraw8
+4705  |Info:    [ProfileManager] Profile loading: Succeeded for ASUS ROG Strix Impact II Wireless 2.4 Ghz @ HID: /dev/hidraw4
+4705  |Info:    [ProfileManager] Profile loading: FAILED! for Anne Pro 2 @ HID: /dev/hidraw10
+4705  |Info:    [ProfileManager] Profile loading: Succeeded for MSI B550-A PRO (MS-7C56) @ HID: /dev/hidraw13
+4705  |Info:    [ProfileManager] Profile loading: Succeeded for Corsair Scimitar Elite RGB @ HID: /dev/hidraw15
+6320  |Info:    [ProfileManager] Profile loading: FAILED! for HyperX Predator RGB @ I2C: /dev/i2c-10, address 0x27
+6320  |Info:    [ProfileManager] Profile loading: FAILED! for PowerColor Red Devil RX6900XT Ultimate @ I2C:/dev/i2c-6, address 0x22
+6320  |Info:    [ProfileManager] Profile loading: FAILED! for Lian Li Strimer L Connect @ HID: /dev/hidraw7
+6320  |Info:    [ProfileManager] Profile loading: Succeeded for Corsair Lighting Node Core @ HID: /dev/hidraw8
+6320  |Info:    [ProfileManager] Profile loading: Succeeded for ASUS ROG Strix Impact II Wireless 2.4 Ghz @ HID: /dev/hidraw4
+6320  |Info:    [ProfileManager] Profile loading: FAILED! for Anne Pro 2 @ HID: /dev/hidraw10
+6320  |Info:    [ProfileManager] Profile loading: Succeeded for MSI B550-A PRO (MS-7C56) @ HID: /dev/hidraw13
+6320  |Info:    [ProfileManager] Profile loading: Succeeded for Corsair Scimitar Elite RGB @ HID: /dev/hidraw15
+6465  |Info:    [ProfileManager] Profile loading: FAILED! for HyperX Predator RGB @ I2C: /dev/i2c-10, address 0x27
+6465  |Info:    [ProfileManager] Profile loading: FAILED! for PowerColor Red Devil RX6900XT Ultimate @ I2C:/dev/i2c-6, address 0x22
+6465  |Info:    [ProfileManager] Profile loading: FAILED! for Lian Li Strimer L Connect @ HID: /dev/hidraw7
+6465  |Info:    [ProfileManager] Profile loading: Succeeded for Corsair Lighting Node Core @ HID: /dev/hidraw8
+6465  |Info:    [ProfileManager] Profile loading: Succeeded for ASUS ROG Strix Impact II Wireless 2.4 Ghz @ HID: /dev/hidraw4
+6465  |Info:    [ProfileManager] Profile loading: FAILED! for Anne Pro 2 @ HID: /dev/hidraw10
+6465  |Info:    [ProfileManager] Profile loading: Succeeded for MSI B550-A PRO (MS-7C56) @ HID: /dev/hidraw13
+6465  |Info:    [ProfileManager] Profile loading: Succeeded for Corsair Scimitar Elite RGB @ HID: /dev/hidraw15
+6630  |Info:    [ProfileManager] Profile loading: FAILED! for HyperX Predator RGB @ I2C: /dev/i2c-10, address 0x27
+6630  |Info:    [ProfileManager] Profile loading: FAILED! for PowerColor Red Devil RX6900XT Ultimate @ I2C:/dev/i2c-6, address 0x22
+6630  |Info:    [ProfileManager] Profile loading: FAILED! for Lian Li Strimer L Connect @ HID: /dev/hidraw7
+6630  |Info:    [ProfileManager] Profile loading: Succeeded for Corsair Lighting Node Core @ HID: /dev/hidraw8
+6630  |Info:    [ProfileManager] Profile loading: Succeeded for ASUS ROG Strix Impact II Wireless 2.4 Ghz @ HID: /dev/hidraw4
+6630  |Info:    [ProfileManager] Profile loading: FAILED! for Anne Pro 2 @ HID: /dev/hidraw10
+6630  |Info:    [ProfileManager] Profile loading: Succeeded for MSI B550-A PRO (MS-7C56) @ HID: /dev/hidraw13
+6631  |Info:    [ProfileManager] Profile loading: Succeeded for Corsair Scimitar Elite RGB @ HID: /dev/hidraw15
+6823  |Info:    [ProfileManager] Profile loading: FAILED! for HyperX Predator RGB @ I2C: /dev/i2c-10, address 0x27
+6824  |Info:    [ProfileManager] Profile loading: FAILED! for PowerColor Red Devil RX6900XT Ultimate @ I2C:/dev/i2c-6, address 0x22
+6824  |Info:    [ProfileManager] Profile loading: FAILED! for Lian Li Strimer L Connect @ HID: /dev/hidraw7
+6824  |Info:    [ProfileManager] Profile loading: Succeeded for Corsair Lighting Node Core @ HID: /dev/hidraw8
+6824  |Info:    [ProfileManager] Profile loading: Succeeded for ASUS ROG Strix Impact II Wireless 2.4 Ghz @ HID: /dev/hidraw4
+6824  |Info:    [ProfileManager] Profile loading: FAILED! for Anne Pro 2 @ HID: /dev/hidraw10
+6824  |Info:    [ProfileManager] Profile loading: Succeeded for MSI B550-A PRO (MS-7C56) @ HID: /dev/hidraw13
+6824  |Info:    [ProfileManager] Profile loading: Succeeded for Corsair Scimitar Elite RGB @ HID: /dev/hidraw15
+7034  |Info:    [ProfileManager] Profile loading: FAILED! for HyperX Predator RGB @ I2C: /dev/i2c-10, address 0x27
+7034  |Info:    [ProfileManager] Profile loading: FAILED! for PowerColor Red Devil RX6900XT Ultimate @ I2C:/dev/i2c-6, address 0x22
+7034  |Info:    [ProfileManager] Profile loading: FAILED! for Lian Li Strimer L Connect @ HID: /dev/hidraw7
+7034  |Info:    [ProfileManager] Profile loading: Succeeded for Corsair Lighting Node Core @ HID: /dev/hidraw8
+7034  |Info:    [ProfileManager] Profile loading: Succeeded for ASUS ROG Strix Impact II Wireless 2.4 Ghz @ HID: /dev/hidraw4
+7034  |Info:    [ProfileManager] Profile loading: FAILED! for Anne Pro 2 @ HID: /dev/hidraw10
+7034  |Info:    [ProfileManager] Profile loading: Succeeded for MSI B550-A PRO (MS-7C56) @ HID: /dev/hidraw13
+7034  |Info:    [ProfileManager] Profile loading: Succeeded for Corsair Scimitar Elite RGB @ HID: /dev/hidraw15
+7199  |Info:    [ProfileManager] Profile loading: FAILED! for HyperX Predator RGB @ I2C: /dev/i2c-10, address 0x27
+7199  |Info:    [ProfileManager] Profile loading: FAILED! for PowerColor Red Devil RX6900XT Ultimate @ I2C:/dev/i2c-6, address 0x22
+7199  |Info:    [ProfileManager] Profile loading: FAILED! for Lian Li Strimer L Connect @ HID: /dev/hidraw7
+7199  |Info:    [ProfileManager] Profile loading: Succeeded for Corsair Lighting Node Core @ HID: /dev/hidraw8
+7199  |Info:    [ProfileManager] Profile loading: Succeeded for ASUS ROG Strix Impact II Wireless 2.4 Ghz @ HID: /dev/hidraw4
+7199  |Info:    [ProfileManager] Profile loading: FAILED! for Anne Pro 2 @ HID: /dev/hidraw10
+7199  |Info:    [ProfileManager] Profile loading: Succeeded for MSI B550-A PRO (MS-7C56) @ HID: /dev/hidraw13
+7199  |Info:    [ProfileManager] Profile loading: Succeeded for Corsair Scimitar Elite RGB @ HID: /dev/hidraw15
+7366  |Info:    [ProfileManager] Profile loading: FAILED! for HyperX Predator RGB @ I2C: /dev/i2c-10, address 0x27
+7366  |Info:    [ProfileManager] Profile loading: FAILED! for PowerColor Red Devil RX6900XT Ultimate @ I2C:/dev/i2c-6, address 0x22
+7366  |Info:    [ProfileManager] Profile loading: FAILED! for Lian Li Strimer L Connect @ HID: /dev/hidraw7
+7366  |Info:    [ProfileManager] Profile loading: Succeeded for Corsair Lighting Node Core @ HID: /dev/hidraw8
+7366  |Info:    [ProfileManager] Profile loading: Succeeded for ASUS ROG Strix Impact II Wireless 2.4 Ghz @ HID: /dev/hidraw4
+7366  |Info:    [ProfileManager] Profile loading: FAILED! for Anne Pro 2 @ HID: /dev/hidraw10
+7366  |Info:    [ProfileManager] Profile loading: Succeeded for MSI B550-A PRO (MS-7C56) @ HID: /dev/hidraw13
+7366  |Info:    [ProfileManager] Profile loading: Succeeded for Corsair Scimitar Elite RGB @ HID: /dev/hidraw15
+7530  |Info:    [ProfileManager] Profile loading: FAILED! for HyperX Predator RGB @ I2C: /dev/i2c-10, address 0x27
+7530  |Info:    [ProfileManager] Profile loading: FAILED! for PowerColor Red Devil RX6900XT Ultimate @ I2C:/dev/i2c-6, address 0x22
+7530  |Info:    [ProfileManager] Profile loading: FAILED! for Lian Li Strimer L Connect @ HID: /dev/hidraw7
+7530  |Info:    [ProfileManager] Profile loading: Succeeded for Corsair Lighting Node Core @ HID: /dev/hidraw8
+7530  |Info:    [ProfileManager] Profile loading: Succeeded for ASUS ROG Strix Impact II Wireless 2.4 Ghz @ HID: /dev/hidraw4
+7530  |Info:    [ProfileManager] Profile loading: FAILED! for Anne Pro 2 @ HID: /dev/hidraw10
+7530  |Info:    [ProfileManager] Profile loading: Succeeded for MSI B550-A PRO (MS-7C56) @ HID: /dev/hidraw13
+7530  |Info:    [ProfileManager] Profile loading: Succeeded for Corsair Scimitar Elite RGB @ HID: /dev/hidraw15
+7688  |Info:    [ProfileManager] Profile loading: FAILED! for HyperX Predator RGB @ I2C: /dev/i2c-10, address 0x27
+7688  |Info:    [ProfileManager] Profile loading: FAILED! for PowerColor Red Devil RX6900XT Ultimate @ I2C:/dev/i2c-6, address 0x22
+7688  |Info:    [ProfileManager] Profile loading: FAILED! for Lian Li Strimer L Connect @ HID: /dev/hidraw7
+7688  |Info:    [ProfileManager] Profile loading: Succeeded for Corsair Lighting Node Core @ HID: /dev/hidraw8
+7688  |Info:    [ProfileManager] Profile loading: Succeeded for ASUS ROG Strix Impact II Wireless 2.4 Ghz @ HID: /dev/hidraw4
+7688  |Info:    [ProfileManager] Profile loading: FAILED! for Anne Pro 2 @ HID: /dev/hidraw10
+7688  |Info:    [ProfileManager] Profile loading: Succeeded for MSI B550-A PRO (MS-7C56) @ HID: /dev/hidraw13
+7688  |Info:    [ProfileManager] Profile loading: Succeeded for Corsair Scimitar Elite RGB @ HID: /dev/hidraw15
+7839  |Info:    [ProfileManager] Profile loading: FAILED! for HyperX Predator RGB @ I2C: /dev/i2c-10, address 0x27
+7839  |Info:    [ProfileManager] Profile loading: FAILED! for PowerColor Red Devil RX6900XT Ultimate @ I2C:/dev/i2c-6, address 0x22
+7839  |Info:    [ProfileManager] Profile loading: FAILED! for Lian Li Strimer L Connect @ HID: /dev/hidraw7
+7839  |Info:    [ProfileManager] Profile loading: Succeeded for Corsair Lighting Node Core @ HID: /dev/hidraw8
+7839  |Info:    [ProfileManager] Profile loading: Succeeded for ASUS ROG Strix Impact II Wireless 2.4 Ghz @ HID: /dev/hidraw4
+7839  |Info:    [ProfileManager] Profile loading: FAILED! for Anne Pro 2 @ HID: /dev/hidraw10
+7839  |Info:    [ProfileManager] Profile loading: Succeeded for MSI B550-A PRO (MS-7C56) @ HID: /dev/hidraw13
+7839  |Info:    [ProfileManager] Profile loading: Succeeded for Corsair Scimitar Elite RGB @ HID: /dev/hidraw15
+8006  |Info:    [ProfileManager] Profile loading: FAILED! for HyperX Predator RGB @ I2C: /dev/i2c-10, address 0x27
+8006  |Info:    [ProfileManager] Profile loading: FAILED! for PowerColor Red Devil RX6900XT Ultimate @ I2C:/dev/i2c-6, address 0x22
+8006  |Info:    [ProfileManager] Profile loading: FAILED! for Lian Li Strimer L Connect @ HID: /dev/hidraw7
+8006  |Info:    [ProfileManager] Profile loading: Succeeded for Corsair Lighting Node Core @ HID: /dev/hidraw8
+8006  |Info:    [ProfileManager] Profile loading: Succeeded for ASUS ROG Strix Impact II Wireless 2.4 Ghz @ HID: /dev/hidraw4
+8006  |Info:    [ProfileManager] Profile loading: FAILED! for Anne Pro 2 @ HID: /dev/hidraw10
+8006  |Info:    [ProfileManager] Profile loading: Succeeded for MSI B550-A PRO (MS-7C56) @ HID: /dev/hidraw13
+8006  |Info:    [ProfileManager] Profile loading: Succeeded for Corsair Scimitar Elite RGB @ HID: /dev/hidraw15
+8161  |Info:    [ProfileManager] Profile loading: FAILED! for HyperX Predator RGB @ I2C: /dev/i2c-10, address 0x27
+8161  |Info:    [ProfileManager] Profile loading: FAILED! for PowerColor Red Devil RX6900XT Ultimate @ I2C:/dev/i2c-6, address 0x22
+8161  |Info:    [ProfileManager] Profile loading: FAILED! for Lian Li Strimer L Connect @ HID: /dev/hidraw7
+8161  |Info:    [ProfileManager] Profile loading: Succeeded for Corsair Lighting Node Core @ HID: /dev/hidraw8
+8161  |Info:    [ProfileManager] Profile loading: Succeeded for ASUS ROG Strix Impact II Wireless 2.4 Ghz @ HID: /dev/hidraw4
+8161  |Info:    [ProfileManager] Profile loading: FAILED! for Anne Pro 2 @ HID: /dev/hidraw10
+8161  |Info:    [ProfileManager] Profile loading: Succeeded for MSI B550-A PRO (MS-7C56) @ HID: /dev/hidraw13
+8161  |Info:    [ProfileManager] Profile loading: Succeeded for Corsair Scimitar Elite RGB @ HID: /dev/hidraw15
+8307  |Info:    [ProfileManager] Profile loading: FAILED! for HyperX Predator RGB @ I2C: /dev/i2c-10, address 0x27
+8307  |Info:    [ProfileManager] Profile loading: FAILED! for PowerColor Red Devil RX6900XT Ultimate @ I2C:/dev/i2c-6, address 0x22
+8307  |Info:    [ProfileManager] Profile loading: FAILED! for Lian Li Strimer L Connect @ HID: /dev/hidraw7
+8307  |Info:    [ProfileManager] Profile loading: Succeeded for Corsair Lighting Node Core @ HID: /dev/hidraw8
+8307  |Info:    [ProfileManager] Profile loading: Succeeded for ASUS ROG Strix Impact II Wireless 2.4 Ghz @ HID: /dev/hidraw4
+8307  |Info:    [ProfileManager] Profile loading: FAILED! for Anne Pro 2 @ HID: /dev/hidraw10
+8307  |Info:    [ProfileManager] Profile loading: Succeeded for MSI B550-A PRO (MS-7C56) @ HID: /dev/hidraw13
+8307  |Info:    [ProfileManager] Profile loading: Succeeded for Corsair Scimitar Elite RGB @ HID: /dev/hidraw15
