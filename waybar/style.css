@@ -59,7 +59,8 @@
 #group\/tray-expander,
 .custom-spotify, 
 #custom-weather,
-#custom-sys-mon {
+#custom-sys-mon,
+#custom-network{
   min-width: 18px;
   padding: 2px 10px;               /* vertical + horizontal spacing */
   margin: 6px 10px;               /* spacing between pills */

@@ -11,14 +11,14 @@
   "modules-center": [
     "clock",
     "custom/spotify",
-    "custom-update"
+    "custom/update"
   ],
   "modules-right": [
     "custom/sys-mon",
-    "custom/weather",	  
+    "custom/weather",
+    "custom/network",
     "cpu",
     "battery",
-    "network",
     "pulseaudio",
     "custom-screenrecording-indicator",
     "bluetooth",
@@ -223,6 +223,17 @@
     "on-click": "x-terminal-emulator -e btop", // optional override
     "on-click-right": "x-terminal-emulator -e coolercontrol", // optional
     "signal": 10              // optional, if you want to trigger updates manually
+  },
+
+"custom/network": {
+    "exec": "/usr/bin/python3 ~/.config/waybar/modules/network-info.py",
+    "interval": 2,           // refresh every 2 seconds
+    "format": "{text}",      // use the text output from the script
+    "tooltip": true,
+    "return-type": "json",
+    "on-click": "/usr/bin/python3 ~/.config/waybar/modules/network-info.py --local-ip | wl-copy",
+    "on-click-right": "/usr/bin/python3 ~/.config/waybar/modules/network-info.py --external-ip | wl-copy",
+    "signal": 11             // optional, if you want to trigger updates manually
 }
 
 }

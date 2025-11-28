@@ -56,7 +56,7 @@ SHORT_DESC_MAP = {
 }
 
 # ---------------- COLORS (matching system monitor)
-FG_HEADER = "#f5c2e7"  # Pink to match system monitor
+FG_HEADER = "#6acda2"  # Pink to match system monitor
 FG_TEXT = "#ffffff"
 
 TEMP_COLORS = [
@@ -69,7 +69,6 @@ def temp_to_color(temp):
         if temp <= t_max:
             return color
     return TEMP_COLORS[-1][1]
-
 # ---------------- ERROR HANDLING
 def fail(msg="Weather unavailable"):
     print(json.dumps({"text": "N/A", "tooltip": f"<span foreground='{FG_HEADER}'>{msg}</span>"}))

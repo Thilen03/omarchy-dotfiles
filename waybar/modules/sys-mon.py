@@ -16,7 +16,7 @@ GPU_ICON = "󰢮"  # nf-md-expansion_card
 MEM_ICON = "󰍛"  # nf-md-memory
 SSD_ICON = "󰋊"  # nf-md-harddisk
 HDD_ICON = "󰋊"  # nf-md-harddisk
-PINK = "#f5c2e7"
+PINK = "#6acda2"
 
 COLOR_TABLE = [
     {"color": "#8caaee", "cpu_gpu_temp": (0, 25),  "cpu_power": (0.0, 20),   "gpu_power": (0.0, 50),   "mem_storage": (0.0, 10)},
