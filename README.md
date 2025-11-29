@@ -25,11 +25,21 @@ Osaka Jade config for Hyprland, Waybar, and Ghostty terminal.
 
 ## Installation
 ```bash
-```bash
-# Clone the Osaka Jade branch into a folder of your choice
-git clone -b osaka-jade https://github.com/Thilen03/omarchy-dotfiles.git
+# Clone the Osaka Jade config branch
+git clone -b osaka-jade https://github.com/Thilen03/omarchy-dotfiles.git ~/osaka-jade
+
+# Navigate to ~/osaka-jade/.config
+cd ~/osaka-jade/.config
 
 # Reminder: Please backup your shit before copying to .config
+
+# Copy over osaka-jade config to your own config
+cp -r ~/osaka-jade/.config/* ~/.config/
+
+# apply the pre-installed omarchy osaka-jade style/theme to match the config with the correct theme
+> 
 ```
+
+
 
 
