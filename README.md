@@ -37,7 +37,7 @@ cd ~/osaka-jade/.config
 cp -r ~/osaka-jade/.config/* ~/.config/
 
 # apply the pre-installed omarchy osaka-jade style/theme to match the config with the correct theme
-> 
+
 ```
 
 
