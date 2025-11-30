@@ -13,8 +13,8 @@
    Customized layouts
    Transparent panels
    Smart switching for workspaces
-  Ghostty;
-   Terminal color scheme matching Osaka Jade
+  --Ghostty;
+  --| Terminal color scheme matching Osaka Jade
 
 ---
 
