@@ -33,12 +33,12 @@
 # Clone the main config branch
 git clone -b main https://github.com/Thilen03/omarchy-dotfiles.git ~/dotfiles
 
-# Navigate to ~/osaka-jade/.config
+# Navigate to ~/dotfiles/.config
 cd ~/dotfiles/.config
 
 # Reminder: Please backup your shit before copying to .config
 
-# Copy over osaka-jade config to your own config
+# Copy over dotfiles config to your own config
 cp -r ~/dotfiles/.config/* ~/.config/
 
 # apply the pre-installed omarchy osaka-jade style/theme to match the config with the correct theme
