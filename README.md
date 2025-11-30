@@ -4,6 +4,7 @@
 
 ## Content
 - **Waybar**
+  - Configured for 21:9 monitors, needs tweaking to look right on smaller monitors with all widgets enabled.
   - Color scheme for Osaka Jade
   - Spotify widget
   - System monitor widget
