@@ -5,17 +5,18 @@
 ## Content
 - **Waybar**
   - Color scheme for Osaka Jade
-  - Spotify integration
-  - System monitor
+  - Spotify widget
+  - System monitor widget
   - Weather widget
   - Network speed widget
   - Pill containers for widgets
-  - Workspace icons
+  - Workspace emoji icons
 
 - **Hypr**
   - Customized layouts
   - Transparent panels
   - Smart switching for workspaces
+  - Personalized workspace behaviors + binds
 
 - **Ghostty**
   - Terminal color scheme matching Osaka Jade
@@ -29,16 +30,16 @@
 
 ## Installation
 ```bash
-# Clone the Osaka Jade config branch
-git clone -b osaka-jade https://github.com/Thilen03/omarchy-dotfiles.git ~/osaka-jade
+# Clone the main config branch
+git clone -b main https://github.com/Thilen03/omarchy-dotfiles.git ~/dotfiles
 
 # Navigate to ~/osaka-jade/.config
-cd ~/osaka-jade/.config
+cd ~/dotfiles/.config
 
 # Reminder: Please backup your shit before copying to .config
 
 # Copy over osaka-jade config to your own config
-cp -r ~/osaka-jade/.config/* ~/.config/
+cp -r ~/dotfiles/.config/* ~/.config/
 
 # apply the pre-installed omarchy osaka-jade style/theme to match the config with the correct theme
 
