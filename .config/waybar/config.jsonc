@@ -33,6 +33,7 @@
   },
 
   "hyprland/workspaces": {
+    "all-outputs": false,
     "on-click": "activate",
     "format": "{icon}",
     "format-icons": {
@@ -42,7 +43,7 @@
         "3": "💬",       // Comms / Chat
         "4": "🎵",       // Music / Media
         "5": "🎮",       // Games
-        "6": "🎨",       // Design / Art
+        "6": "🎨",       // Design / Art 
         "7": "📁",       // Files / Storage
         "8": "🖥️",      // VMs / Misc
         "9": "📝",       // Notes / Docs
