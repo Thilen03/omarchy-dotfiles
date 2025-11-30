@@ -3,20 +3,22 @@
 ![Preview](preview.png)
 
 ## Features
-  Waybar:
-   Color scheme for Osaka Jade
-   Spotify integration
-   System monitor
-   Weather widget
-   Pill containers for widgets
-  Hypr:
-   Customized layouts
-   Transparent panels
-   Smart switching for workspaces
-  --Ghostty;
-  --| Terminal color scheme matching Osaka Jade
+- **Waybar**
+  - Color scheme for Osaka Jade
+  - Spotify integration
+  - System monitor
+  - Weather widget
+  - Pill containers for widgets
 
----
+- **Hypr**
+  - Customized layouts
+  - Transparent panels
+  - Smart switching for workspaces
+
+- **Ghostty**
+  - Terminal color scheme matching Osaka Jade
+
+
 
 ## Installation
 ```bash
@@ -34,7 +36,6 @@ cp -r ~/osaka-jade/.config/* ~/.config/
 # apply the pre-installed omarchy osaka-jade style/theme to match the config with the correct theme
 
 ```
-
 
 
 
