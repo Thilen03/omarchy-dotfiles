@@ -15,7 +15,8 @@
 
 - **Hypr**
   - Customized layouts
-  - Transparent panels
+  - Opaque blurred panels
+  - Rounded window corners
   - Smart switching for workspaces
   - Personalized workspace behaviors + binds
 
