@@ -2,7 +2,7 @@
 
 ![Preview](preview.png)
 
-## Features
+## Content
 - **Waybar**
   - Color scheme for Osaka Jade
   - Spotify integration
