@@ -8,7 +8,9 @@
   - Spotify integration
   - System monitor
   - Weather widget
+  - Network speed widget
   - Pill containers for widgets
+  - Workspace icons
 
 - **Hypr**
   - Customized layouts
@@ -18,7 +20,12 @@
 - **Ghostty**
   - Terminal color scheme matching Osaka Jade
 
+- **Walker** 
+  - Transparent look with smoke effect
 
+- **Fastfetch**
+  - PNG load config
+  - Osaka Jade torii gate icon
 
 ## Installation
 ```bash
